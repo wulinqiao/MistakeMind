@@ -6,6 +6,7 @@ import uuid
 from datetime import datetime, timezone
 
 from fastapi import FastAPI, Query, Request
+from fastapi.encoders import jsonable_encoder
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import JSONResponse
 
@@ -37,7 +38,8 @@ async def request_context(request: Request, call_next):
 
 @app.exception_handler(RequestValidationError)
 async def validation_error(request: Request, exc: RequestValidationError):
-    return envelope(request.state.request_id, error=ErrorBody(code="VALIDATION_ERROR", message="请求参数校验失败", details={"errors": exc.errors()}), status=400)
+    errors = jsonable_encoder(exc.errors(), custom_encoder={Exception: str})
+    return envelope(request.state.request_id, error=ErrorBody(code="VALIDATION_ERROR", message="请求参数校验失败", details={"errors": errors}), status=400)
 
 
 @app.get("/health")

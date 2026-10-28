@@ -41,15 +41,15 @@ def validate_questions(rows: object) -> list[str]:
             errors.append(f"{prefix}: 句子重复")
         else:
             sentences.add(sentence)
-        if item.get("mode") not in MODES:
+        if not isinstance(item.get("mode"), str) or item["mode"] not in MODES:
             errors.append(f"{prefix}: mode 不是有效枚举")
-        if item.get("difficulty") not in DIFFICULTIES:
+        if not isinstance(item.get("difficulty"), str) or item["difficulty"] not in DIFFICULTIES:
             errors.append(f"{prefix}: difficulty 不是有效枚举")
         if type(item.get("has_error")) is not bool:
             errors.append(f"{prefix}: has_error 必须是布尔值")
         category = item.get("category")
         types = item.get("error_types")
-        if not isinstance(types, list) or any(t not in CATEGORIES for t in types) or len(set(map(str,types))) != len(types):
+        if not isinstance(types, list) or any(not isinstance(t, str) or t not in CATEGORIES for t in types) or len(set(types)) != len(types):
             errors.append(f"{prefix}: error_types 必须是无重复的八类标签数组")
         elif item.get("has_error") is True and (category not in CATEGORIES or category not in types):
             errors.append(f"{prefix}: 病句的 category 必须在 error_types 中")
@@ -60,12 +60,12 @@ def validate_questions(rows: object) -> list[str]:
             not isinstance(ref, dict) or not isinstance(ref.get("text"), str) or not ref["text"].strip()
             for ref in references
         ):
-            errors.append(f"{prefix}: references 必须是非空的 [{'text': '...'}] 数组")
+            errors.append(f"{prefix}: references 必须是非空的 [{{'text': '...'}}] 数组")
         if not isinstance(item.get("explanation"), str) or not item["explanation"].strip():
             errors.append(f"{prefix}: explanation 不能为空")
         if not isinstance(item.get("source"), str) or not item["source"].strip():
             errors.append(f"{prefix}: source 不能为空")
-        if item.get("review_status") not in STATUSES:
+        if not isinstance(item.get("review_status"), str) or item["review_status"] not in STATUSES:
             errors.append(f"{prefix}: review_status 必须是 pending/approved/rejected")
         if type(item.get("is_active")) is not bool:
             errors.append(f"{prefix}: is_active 必须是布尔值")

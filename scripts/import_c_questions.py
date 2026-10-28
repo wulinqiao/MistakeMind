@@ -1,8 +1,9 @@
-"""仅导入审核通过的题目，不更改 D 的原始导入脚本。"""
+"""仅导入审核通过的题目；供 C 模块和原有导入入口共用。"""
 from __future__ import annotations
 
 import argparse
 import json
+from contextlib import closing
 from pathlib import Path
 
 from db.database import Database
@@ -19,7 +20,7 @@ def import_approved(path: str | Path, db_path: str | Path | None = None, dry_run
         print("没有已审核且启用的题目；不修改数据库。")
         return 0
     db = Database(db_path)
-    with db.connect() as conn:
+    with closing(db.connect()) as conn, conn:
         for item in approved:
             conn.execute(
                 """INSERT OR REPLACE INTO questions

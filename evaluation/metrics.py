@@ -15,21 +15,36 @@ def _prf(tp: int, fp: int, fn: int) -> dict[str, float]:
     return {"precision": round(p, 4), "recall": round(r, 4), "f1": round(f1, 4)}
 
 
+def _index_records(records: list[dict], name: str) -> dict[str, dict]:
+    """先校验输入，再按题号建立索引，避免静默忽略非法标注。"""
+    if not isinstance(records, list) or not records:
+        raise ValueError(f"{name} 必须是非空 JSON 数组")
+    indexed = {}
+    for index, item in enumerate(records):
+        if not isinstance(item, dict):
+            raise ValueError(f"{name}[{index}] 必须是对象")
+        question_id = item.get("id")
+        if not isinstance(question_id, str) or not question_id.strip():
+            raise ValueError(f"{name}[{index}]: id 必须是非空字符串")
+        if question_id in indexed:
+            raise ValueError(f"{name} 中存在重复 id: {question_id}")
+        if type(item.get("has_error")) is not bool:
+            raise ValueError(f"{name}[{index}]: has_error 必须是布尔值")
+        if item["has_error"]:
+            if item.get("category") not in CATEGORIES:
+                raise ValueError(f"{name}[{index}]: 病句 category 不是八类标签之一")
+        elif item.get("category") != "其他":
+            raise ValueError(f"{name}[{index}]: 正常句 category 必须为其他")
+        indexed[question_id] = item
+    return indexed
+
+
 def evaluate(gold: list[dict], predicted: list[dict]) -> dict:
-    """gold/predicted 每条均为 {id,has_error,category}；category 为主类别。"""
-    if len({x["id"] for x in gold}) != len(gold):
-        raise ValueError("gold 中存在重复 id")
-    if len({x["id"] for x in predicted}) != len(predicted):
-        raise ValueError("predicted 中存在重复 id")
-    g = {x["id"]: x for x in gold}
-    p = {x["id"]: x for x in predicted}
+    """gold/predicted 为非空数组，每条含 {id,has_error,category}；id 唯一。"""
+    g = _index_records(gold, "gold")
+    p = _index_records(predicted, "predicted")
     if set(g) != set(p):
         raise ValueError(f"题号不一致：missing={sorted(set(g)-set(p))}, extra={sorted(set(p)-set(g))}")
-    for item in gold + predicted:
-        if type(item.get("has_error")) is not bool:
-            raise ValueError(f"{item['id']}: has_error 必须是布尔值")
-        if item.get("has_error") and item.get("category") not in CATEGORIES:
-            raise ValueError(f"{item['id']}: 病句 category 不是八类标签之一")
     tp = sum(g[i]["has_error"] and p[i]["has_error"] for i in g)
     fp = sum(not g[i]["has_error"] and p[i]["has_error"] for i in g)
     fn = sum(g[i]["has_error"] and not p[i]["has_error"] for i in g)
