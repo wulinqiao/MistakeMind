@@ -149,6 +149,10 @@ MistakeMind/
 └── scripts/              # 初始化、导入和评测脚本
 ```
 
+## 协作与接口规范
+
+团队分工、统一 API、Agent 上下文、数据库字段、错误码、联调顺序和验收标准见：[团队分工与统一接口规范](TEAM_ASSIGNMENT_AND_API_SPEC.md)。
+
 ## 开发计划
 
 | 阶段 | 目标 |
