@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ex_01",
+    "has_error": true,
+    "category": "成分残缺"
+  },
+  {
+    "id": "ex_02",
+    "has_error": true,
+    "category": "搭配不当"
+  },
+  {
+    "id": "ex_03",
+    "has_error": true,
+    "category": "不合逻辑"
+  },
+  {
+    "id": "ex_04",
+    "has_error": false,
+    "category": "其他"
+  }
+]

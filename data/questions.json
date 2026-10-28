@@ -1,0 +1,510 @@
+[
+  {
+    "id": "c_001",
+    "sentence": "通过这次活动，使我认识到了团队合作的重要性。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "通过……使……",
+    "references": [
+      {
+        "text": "通过这次活动，我认识到了团队合作的重要性。"
+      },
+      {
+        "text": "这次活动使我认识到了团队合作的重要性。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“通过”和“使”搭配造成句子缺少主语。",
+    "knowledge_tags": [
+      "主语残缺"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_002",
+    "sentence": "经过老师的耐心帮助，使他逐渐树立了信心。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "经过……使……",
+    "references": [
+      {
+        "text": "经过老师的耐心帮助，他逐渐树立了信心。"
+      },
+      {
+        "text": "老师的耐心帮助使他逐渐树立了信心。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "介词“经过”与使令动词“使”同时使用，主语不明确。",
+    "knowledge_tags": [
+      "主语残缺"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_003",
+    "sentence": "他忍俊不禁地笑了起来。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "忍俊不禁地笑",
+    "references": [
+      {
+        "text": "他忍俊不禁。"
+      },
+      {
+        "text": "他笑了起来。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“忍俊不禁”本身包含笑的意思，语义重复。",
+    "knowledge_tags": [
+      "语义重复"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_004",
+    "sentence": "我们必须避免不再发生类似的错误。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "避免不再",
+    "references": [
+      {
+        "text": "我们必须避免发生类似的错误。"
+      },
+      {
+        "text": "我们必须防止类似的错误再次发生。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“避免”与“不再”连用改变了否定关系，应删去多余否定。",
+    "knowledge_tags": [
+      "多余否定"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_005",
+    "sentence": "我们要不断提高学习态度。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "提高学习态度",
+    "references": [
+      {
+        "text": "我们要不断端正学习态度。"
+      },
+      {
+        "text": "我们要不断提高学习效率。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "动词“提高”通常不能和“态度”直接搭配。",
+    "knowledge_tags": [
+      "动宾搭配"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_006",
+    "sentence": "春天的公园里盛开着五颜六色的歌声。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "盛开着五颜六色的歌声",
+    "references": [
+      {
+        "text": "春天的公园里回荡着动听的歌声。"
+      },
+      {
+        "text": "春天的公园里盛开着五颜六色的鲜花。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“盛开”不能与“歌声”搭配；不同修改侧重不同原意，需审核。",
+    "knowledge_tags": [
+      "动宾搭配"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_007",
+    "sentence": "我们认真地研究并发现了这个问题。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "研究并发现",
+    "references": [
+      {
+        "text": "我们认真地发现并研究了这个问题。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "一般应先发现问题，再研究问题。",
+    "knowledge_tags": [
+      "逻辑语序"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_008",
+    "sentence": "这是一件妈妈给我买的漂亮的去年冬天的大衣。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "漂亮的去年冬天的大衣",
+    "references": [
+      {
+        "text": "这是一件妈妈去年冬天给我买的漂亮大衣。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "时间状语位置不当，调整到“买”的前面更自然。",
+    "knowledge_tags": [
+      "多项定语与状语"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_009",
+    "sentence": "这本书的作者是由一位教授写的。",
+    "mode": "修改题",
+    "category": "结构混乱",
+    "error_types": [
+      "结构混乱"
+    ],
+    "has_error": true,
+    "error_span": "作者是由……写的",
+    "references": [
+      {
+        "text": "这本书的作者是一位教授。"
+      },
+      {
+        "text": "这本书是由一位教授写的。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“作者是……”和“书是由……写的”两种句式杂糅。",
+    "knowledge_tags": [
+      "句式杂糅"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_010",
+    "sentence": "这次比赛能否获胜，关键在于全体队员的共同努力决定的。",
+    "mode": "修改题",
+    "category": "结构混乱",
+    "error_types": [
+      "结构混乱"
+    ],
+    "has_error": true,
+    "error_span": "关键在于……决定的",
+    "references": [
+      {
+        "text": "这次比赛能否获胜，关键在于全体队员是否共同努力。"
+      },
+      {
+        "text": "这次比赛的结果是由全体队员的共同努力决定的。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“关键在于……”与“由……决定”两种结构混用，且前后两面需一致。",
+    "knowledge_tags": [
+      "句式杂糅"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_011",
+    "sentence": "他看见老师非常高兴。",
+    "mode": "修改题",
+    "category": "表意不明",
+    "error_types": [
+      "表意不明"
+    ],
+    "has_error": true,
+    "error_span": "他看见老师非常高兴",
+    "references": [
+      {
+        "text": "他看见老师，自己非常高兴。"
+      },
+      {
+        "text": "他看见老师非常高兴的样子。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“非常高兴”可能修饰“他”，也可能修饰“老师”，缺少明确所指。",
+    "knowledge_tags": [
+      "歧义指向"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_012",
+    "sentence": "小李告诉小王，他明天要参加比赛。",
+    "mode": "修改题",
+    "category": "表意不明",
+    "error_types": [
+      "表意不明"
+    ],
+    "has_error": true,
+    "error_span": "他",
+    "references": [
+      {
+        "text": "小李告诉小王：“我明天要参加比赛。”"
+      },
+      {
+        "text": "小李告诉小王，小王明天要参加比赛。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "代词“他”的指代对象可能是小李或小王。",
+    "knowledge_tags": [
+      "代词指代"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_013",
+    "sentence": "全班同学基本上都全部到齐了。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "基本上都全部",
+    "references": [
+      {
+        "text": "全班同学基本上都到齐了。"
+      },
+      {
+        "text": "全班同学全部到齐了。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“基本上”和“全部”表达的范围冲突。",
+    "knowledge_tags": [
+      "自相矛盾"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_014",
+    "sentence": "我们班的男生和全体同学都参加了运动会。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "男生和全体同学",
+    "references": [
+      {
+        "text": "我们班的全体同学都参加了运动会。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“男生”属于“全体同学”的一部分，不能作为并列的同级集合。",
+    "knowledge_tags": [
+      "分类不当"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_015",
+    "sentence": "虽然努力学习，才会取得进步。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "虽然……才……",
+    "references": [
+      {
+        "text": "只有努力学习，才会取得进步。"
+      },
+      {
+        "text": "如果努力学习，就会取得进步。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“虽然”表示让步，而“才”通常与“只有”搭配。",
+    "knowledge_tags": [
+      "关联词搭配"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_016",
+    "sentence": "他不仅学习认真，但是乐于帮助同学。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "不仅……但是……",
+    "references": [
+      {
+        "text": "他不仅学习认真，而且乐于帮助同学。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "递进关系应使用“不仅……而且……”搭配。",
+    "knowledge_tags": [
+      "关联词搭配"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_017",
+    "sentence": "这次活动让我认识到了团队合作的重要性。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "这次活动让我认识到了团队合作的重要性。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "句意明确，结构完整，无须修改。",
+    "knowledge_tags": [
+      "正常句"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_018",
+    "sentence": "同学们在图书馆里安静地阅读。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "同学们在图书馆里安静地阅读。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "句意明确，结构完整，无须修改。",
+    "knowledge_tags": [
+      "正常句"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_019",
+    "sentence": "只有认真观察，才能发现生活中的细节。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "只有认真观察，才能发现生活中的细节。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "句意明确，结构完整，无须修改。",
+    "knowledge_tags": [
+      "正常句"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "c_020",
+    "sentence": "老师耐心地解答了同学们提出的问题。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "老师耐心地解答了同学们提出的问题。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "句意明确，结构完整，无须修改。",
+    "knowledge_tags": [
+      "正常句"
+    ],
+    "source": "项目组自编（待人工审核）",
+    "review_status": "pending",
+    "is_active": false
+  }
+]
