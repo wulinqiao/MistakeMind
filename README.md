@@ -186,6 +186,18 @@ DATABASE_URL=sqlite:///./data/mistakemind.db
 
 不要把真实 API Key 提交到 Git。建议使用 `.env` 文件，并将其加入 `.gitignore`。
 
+## D 模块后端启动
+
+D 模块已提供 FastAPI、SQLite、统一 Pydantic Schema、题库导入和 Mock Agent 闭环。安装依赖后运行：
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\pip install -r requirements.txt
+uvicorn backend.main:app --reload
+```
+
+服务地址为 `http://127.0.0.1:8000`，健康检查为 `/health`，接口文档为 `/docs`。也可以使用 `start.ps1` 或 Dockerfile 启动。未配置 `LLM_API_KEY` 时使用确定性 Mock 诊断，便于前后端联调；完整请求、响应、错误码和题库导入说明见 [`docs/api.md`](docs/api.md)。
+
 ## 项目边界
 
 当前 MVP 暂不包含 OCR、作文篇章级批改、模型微调和复杂知识图谱。优先保证单句病句训练闭环、结构化输出、历史记录、推荐逻辑和实验可复现。
