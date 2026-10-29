@@ -1,0 +1,36 @@
+{
+  "success": true,
+  "request_id": "req_mock_diagnose_001",
+  "data": {
+    "diagnosis_id": "diag_001",
+    "original_sentence": "通过开展此次活动，使同学们提高了环保意识。",
+    "has_error": true,
+    "error_types": ["结构混乱", "成分残缺"],
+    "error_span": "通过……使……",
+    "explanation": "“通过”和“使”同时使用，造成句子结构混乱。",
+    "corrections": [
+      {
+        "text": "通过开展此次活动，同学们提高了环保意识。",
+        "kind": "最小修改",
+        "reason": "删除“使”，补出明确主语"
+      },
+      {
+        "text": "开展此次活动，使同学们提高了环保意识。",
+        "kind": "另一种合理修改",
+        "reason": "删除“通过”"
+      }
+    ],
+    "hints": [
+      { "level": 1, "text": "请检查句子的主语是否明确。" },
+      { "level": 2, "text": "注意“通过……使……”这一结构。" },
+      { "level": 3, "text": "可以删除“通过”或删除“使”。" }
+    ],
+    "confidence": 0.94,
+    "review_status": "passed"
+  },
+  "error": null,
+  "meta": {
+    "timestamp": "2026-10-28T12:30:00+08:00",
+    "version": "v1"
+  }
+}

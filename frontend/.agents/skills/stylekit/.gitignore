@@ -1,0 +1,20 @@
+# Node
+node_modules/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Local agent skill installs (keep the repo single-skill)
+skills/
+.claude/
+.agents/
+.factory/
+.kiro/
+__pycache__/
+*.pyc

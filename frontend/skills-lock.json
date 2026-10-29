@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "stylekit": {
+      "source": "AnxForever/stylekit-skill",
+      "sourceType": "github",
+      "skillPath": "SKILL.md",
+      "computedHash": "3fd140e27a907232d997d9bb98a6cfe0e0a00ead9bdfbca495099feb103f4335"
+    }
+  }
+}

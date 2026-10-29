@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "request_id": "req_mock_submit_001",
+  "data": {
+    "attempt_id": "attempt_001",
+    "is_correct": true,
+    "feedback_level": "basic",
+    "feedback": "判断正确。该句属于成分残缺。",
+    "next_action": "show_explanation",
+    "recommended_question_id": "q_017",
+    "mastery_update": {
+      "category": "成分残缺",
+      "before": 0.42,
+      "after": 0.5
+    }
+  },
+  "error": null,
+  "meta": {
+    "timestamp": "2026-10-28T12:30:00+08:00",
+    "version": "v1"
+  }
+}

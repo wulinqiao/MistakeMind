@@ -1,0 +1,16 @@
+{
+  "success": false,
+  "request_id": "req_mock_diagnose_err_001",
+  "data": null,
+  "error": {
+    "code": "VALIDATION_ERROR",
+    "message": "sentence 不能为空",
+    "details": {
+      "field": "sentence"
+    }
+  },
+  "meta": {
+    "timestamp": "2026-10-28T12:31:00+08:00",
+    "version": "v1"
+  }
+}

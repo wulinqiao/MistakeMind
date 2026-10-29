@@ -1,0 +1,42 @@
+{
+  "success": true,
+  "request_id": "req_mock_profile_001",
+  "data": {
+    "user_id": "user_001",
+    "total_attempts": 20,
+    "overall_accuracy": 0.75,
+    "category_stats": [
+      {
+        "category": "搭配不当",
+        "attempts": 8,
+        "correct": 4,
+        "accuracy": 0.5,
+        "mastery": 0.42,
+        "priority": "high"
+      },
+      {
+        "category": "成分残缺",
+        "attempts": 6,
+        "correct": 5,
+        "accuracy": 0.83,
+        "mastery": 0.7,
+        "priority": "medium"
+      },
+      {
+        "category": "结构混乱",
+        "attempts": 6,
+        "correct": 6,
+        "accuracy": 1.0,
+        "mastery": 0.88,
+        "priority": "low"
+      }
+    ],
+    "recommended_categories": ["搭配不当", "成分残缺"],
+    "next_review_at": "2026-10-30T19:00:00+08:00"
+  },
+  "error": null,
+  "meta": {
+    "timestamp": "2026-10-28T12:40:00+08:00",
+    "version": "v1"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "request_id": "req_mock_history_001",
+  "data": {
+    "items": [
+      {
+        "attempt_id": "attempt_001",
+        "question_id": "q_001",
+        "answer": "是病句",
+        "is_correct": true,
+        "error_types": ["成分残缺"],
+        "created_at": "2026-10-28T12:30:00+08:00"
+      },
+      {
+        "attempt_id": "attempt_002",
+        "question_id": "q_003",
+        "answer": "我们必须认真发现并克服学习中的缺点。",
+        "is_correct": true,
+        "error_types": ["语序不当"],
+        "created_at": "2026-10-28T12:35:00+08:00"
+      }
+    ],
+    "page": 1,
+    "page_size": 20,
+    "total": 2
+  },
+  "error": null,
+  "meta": {
+    "timestamp": "2026-10-28T12:36:00+08:00",
+    "version": "v1"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "request_id": "req_mock_questions_001",
+  "data": {
+    "questions": [
+      {
+        "question_id": "q_001",
+        "sentence": "通过这次活动，使我受到了很大的教育。",
+        "mode": "判断题",
+        "difficulty": "初中",
+        "category": "成分残缺",
+        "options": ["是病句", "不是病句"]
+      },
+      {
+        "question_id": "q_002",
+        "sentence": "他的学习成绩不但提高了，而且他的思想也进步了。",
+        "mode": "选择题",
+        "difficulty": "高中",
+        "category": "关联词使用不当",
+        "options": ["关联词位置不当", "成分残缺", "搭配不当", "不是病句"]
+      },
+      {
+        "question_id": "q_003",
+        "sentence": "我们必须认真克服并发现学习中的缺点。",
+        "mode": "修改题",
+        "difficulty": "初中",
+        "category": "语序不当",
+        "options": null
+      }
+    ]
+  },
+  "error": null,
+  "meta": {
+    "timestamp": "2026-10-28T12:30:00+08:00",
+    "version": "v1"
+  }
+}
