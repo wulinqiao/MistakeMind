@@ -1,5 +1,14 @@
 # MistakeMind API
 
+## v1.1 B 模块
+
+所有旧路径和旧请求兼容，meta.version 为 v1.1；诊断增加 needs_context=false。配置与运行参见 ../agents/README.md。
+grade、optional_context、need_hints 参与诊断。模型返回不直接外传，先做结构校验与复核。
+MODEL_UNAVAILABLE (502) 表示配置/鉴权/服务不可用；非法 JSON (502)、超时 (504) 保持原错误码。
+自由诊断 needs_review 仍返回 success=true，解释为暂定结论且不入库；判题 needs_review 返回 HTTP 200、success=false、data=null、MODEL_LOW_CONFIDENCE，不写成绩。
+判断题 options 固定为两项；类别选择题 options 为统一标签，参考修改不再作为选项。category 字段仍兼容保留。
+作答与关联诊断原子保存；历史 error_types 来自关联诊断。不变更数据库表结构。
+
 ## 启动
 
 ```powershell
@@ -28,7 +37,7 @@ curl 'http://localhost:8000/api/history/user_001'
 curl 'http://localhost:8000/api/profile/user_001'
 ```
 
-未配置 `LLM_API_KEY` 时诊断使用确定性 Mock，便于前后端联调；配置 OpenAI 兼容服务的密钥和地址后，可替换 `backend/agents.py` 中的适配器实现。模型超时、非法 JSON 和低置信度分别映射到统一错误/复核状态，不会把原始模型响应返回给前端。
+未配置 `LLM_API_KEY` 时使用明确标识的固定 Mock；未知句提示复核。配置 OpenAI 兼容服务的密钥、基础地址和模型名后即可使用真实适配器，无需修改源码。模型超时、非法 JSON 和低置信度分别映射到统一错误/复核状态，不会把原始模型响应返回给前端。
 
 ## 错误码
 

@@ -16,6 +16,7 @@ data/*.db
 data/*.sqlite
 data/raw/
 coverage.xml
+evaluation/runs/
 htmlcov/
 .idea/
 .vscode/

@@ -198,7 +198,18 @@ uvicorn backend.main:app --reload
 
 服务地址为 `http://127.0.0.1:8000`，健康检查为 `/health`，接口文档为 `/docs`。也可以使用 `start.ps1` 或 Dockerfile 启动。未配置 `LLM_API_KEY` 时使用确定性 Mock 诊断，便于前后端联调；完整请求、响应、错误码和题库导入说明见 [`docs/api.md`](docs/api.md)。
 
-## 项目边界
+## B 模块交付
+
+B 已实现可配置真实模型适配、八类结构化诊断、修改/提示/复核、学生修改语义判分及作答与诊断原子保存。组员接入先读 [B 模块交接说明](docs/B_HANDOFF.md)。运行、配置、三组评测和人工审核步骤见 [B 模块说明](agents/README.md)，工程验证见 [B 验证记录](docs/B_VERIFICATION_REPORT.md)。
+
+```powershell
+python -m pytest -q
+python -X utf8 -m scripts.demo_b
+```
+
+未配置模型时只使用明确标识的固定 Mock，未知句需要复核。原始 80 条候选保留 pending，另有人工审核的 79 条正式测试集（61 条病句、18 条正常句，版本 b-reviewed-1.1）；测试集不导入练习库。尚无真实模型质量结论。
+
+## 项目边界说明
 
 当前 MVP 暂不包含 OCR、作文篇章级批改、模型微调和复杂知识图谱。优先保证单句病句训练闭环、结构化输出、历史记录、推荐逻辑和实验可复现。
 

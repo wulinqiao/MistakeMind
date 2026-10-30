@@ -1,0 +1,2465 @@
+[
+  {
+    "id": "b_eval_001",
+    "sentence": "通过参观天文馆，使我们了解了行星的运行。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "通过……使……",
+    "references": [
+      {
+        "text": "通过参观天文馆，我们了解了行星的运行。"
+      },
+      {
+        "text": "参观天文馆使我们了解了行星的运行。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "句子的主语或动词所必需的宾语缺失，需要结合语境补全或删除掩盖主语的介词。",
+    "knowledge_tags": [
+      "成分残缺"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "介词结构滥用掩盖主语。可删去'使'，或删去'通过'保留使动，补充两种最小修改。"
+    }
+  },
+  {
+    "id": "b_eval_002",
+    "sentence": "经过连续几天的练习，让她掌握了这套动作。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "经过……让……",
+    "references": [
+      {
+        "text": "连续几天的练习让她掌握了这套动作。"
+      },
+      {
+        "text": "经过连续几天的练习，她掌握了这套动作。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "句子的主语或动词所必需的宾语缺失，需要结合语境补全或删除掩盖主语的介词。",
+    "knowledge_tags": [
+      "成分残缺"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "滥用'经过……让……'掩盖主语。可删去'经过'以'练习'做主语，也可删去'让'以'她'做主语。"
+    }
+  },
+  {
+    "id": "b_eval_003",
+    "sentence": "在这篇报道中，介绍了古桥修缮的经过。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "在这篇报道中",
+    "references": [
+      {
+        "text": "这篇报道介绍了古桥修缮的经过。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "句子的主语或动词所必需的宾语缺失，需要结合语境补全或删除掩盖主语的介词。",
+    "knowledge_tags": [
+      "成分残缺"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，成分残缺分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_004",
+    "sentence": "为了改善阅览环境，开展了一次图书整理。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "开展了一次图书整理",
+    "references": [
+      {
+        "text": "为了改善阅览环境，同学们开展了一次图书整理。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "句子的主语或动词所必需的宾语缺失，需要结合语境补全或删除掩盖主语的介词。",
+    "knowledge_tags": [
+      "成分残缺"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，成分残缺分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_005",
+    "sentence": "他每晚认真完成。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "完成",
+    "references": [
+      {
+        "text": "他每晚认真完成家庭作业。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "句子的主语或动词所必需的宾语缺失，需要结合语境补全或删除掩盖主语的介词。",
+    "knowledge_tags": [
+      "成分残缺"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，成分残缺分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_006",
+    "sentence": "面对突发情况，我们必须采取。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "采取",
+    "references": [
+      {
+        "text": "面对突发情况，我们必须采取应急措施。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "句子的主语或动词所必需的宾语缺失，需要结合语境补全或删除掩盖主语的介词。",
+    "knowledge_tags": [
+      "成分残缺"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，成分残缺分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_007",
+    "sentence": "这份倡议书向全校同学发出了。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "发出了",
+    "references": [
+      {
+        "text": "这份倡议书向全校同学发出了节约用水的号召。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "句子的主语或动词所必需的宾语缺失，需要结合语境补全或删除掩盖主语的介词。",
+    "knowledge_tags": [
+      "成分残缺"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，成分残缺分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_008",
+    "sentence": "通过此次培训，使志愿者提高了服务的步伐。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺",
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "通过……使……提高了服务的步伐",
+    "references": [
+      {
+        "text": "通过此次培训，志愿者加快了服务的步伐。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "句子的主语或动词所必需的宾语缺失，需要结合语境补全或删除掩盖主语的介词。 同时检查“搭配不当”。",
+    "knowledge_tags": [
+      "成分残缺",
+      "搭配不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，成分残缺分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_009",
+    "sentence": "这条捷径可以减少不必要的多余路程。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "不必要的多余",
+    "references": [
+      {
+        "text": "这条捷径可以减少不必要的路程。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的词语表达重复，应删除多余部分，保留必要语义。",
+    "knowledge_tags": [
+      "成分赘余"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，成分赘余分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_010",
+    "sentence": "他独自一个人守在观测站。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "独自一个人",
+    "references": [
+      {
+        "text": "他独自守在观测站。"
+      },
+      {
+        "text": "他一个人守在观测站。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的词语表达重复，应删除多余部分，保留必要语义。",
+    "knowledge_tags": [
+      "成分赘余"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "'独自'与'一个人'语意重复，补充删去前者的备选修改。"
+    }
+  },
+  {
+    "id": "b_eval_011",
+    "sentence": "请把这份材料再重新打印一遍。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "再重新",
+    "references": [
+      {
+        "text": "请把这份材料重新打印一遍。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的词语表达重复，应删除多余部分，保留必要语义。",
+    "knowledge_tags": [
+      "成分赘余"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，成分赘余分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_012",
+    "sentence": "这次维修大约需要三小时左右。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "大约……左右",
+    "references": [
+      {
+        "text": "这次维修大约需要三小时。"
+      },
+      {
+        "text": "这次维修需要三小时左右。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的词语表达重复，应删除多余部分，保留必要语义。",
+    "knowledge_tags": [
+      "成分赘余"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "'大约'与'左右'均为约数词，语义重复。保留其一即可。"
+    }
+  },
+  {
+    "id": "b_eval_013",
+    "sentence": "听完这个故事，她的心里感到十分欣慰和高兴极了。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "十分……极了",
+    "references": [
+      {
+        "text": "听完这个故事，她的心里感到十分欣慰和高兴。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的词语表达重复，应删除多余部分，保留必要语义。",
+    "knowledge_tags": [
+      "成分赘余"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，成分赘余分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_014",
+    "sentence": "他首先第一个走上领奖台。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "首先第一个",
+    "references": [
+      {
+        "text": "他第一个走上领奖台。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的词语表达重复，应删除多余部分，保留必要语义。",
+    "knowledge_tags": [
+      "成分赘余"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，成分赘余分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_015",
+    "sentence": "我亲眼目睹了候鸟迁徙的壮观场面。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "亲眼目睹",
+    "references": [
+      {
+        "text": "我目睹了候鸟迁徙的壮观场面。"
+      },
+      {
+        "text": "我亲眼看到了候鸟迁徙的壮观场面。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的词语表达重复，应删除多余部分，保留必要语义。",
+    "knowledge_tags": [
+      "成分赘余"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "'目睹'即亲眼所见，与'亲眼'赘余。可删'亲眼'或将'目睹'改为'看到'。"
+    }
+  },
+  {
+    "id": "b_eval_016",
+    "sentence": "大家再次重复练习，以提高认真检查的习惯。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余",
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "再次重复……提高……习惯",
+    "references": [
+      {
+        "text": "大家重复练习，以养成认真检查的习惯。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的词语表达重复，应删除多余部分，保留必要语义。 同时检查“搭配不当”。",
+    "knowledge_tags": [
+      "成分赘余",
+      "搭配不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，成分赘余分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_017",
+    "sentence": "阅读经典能够增长我们的眼界。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "增长……眼界",
+    "references": [
+      {
+        "text": "阅读经典能够开阔我们的眼界。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的成分搭配不合适，应调整动词、中心语或修饰语。",
+    "knowledge_tags": [
+      "搭配不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，搭配不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_018",
+    "sentence": "我们应当端正学习目的。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "端正学习目的",
+    "references": [
+      {
+        "text": "我们应当明确学习目的。"
+      },
+      {
+        "text": "我们应当端正学习态度。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的成分搭配不合适，应调整动词、中心语或修饰语。",
+    "knowledge_tags": [
+      "搭配不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "动宾搭配不当。'端正'常搭配'态度/思想'，'目的'常搭配'明确'，补充双向修改。"
+    }
+  },
+  {
+    "id": "b_eval_019",
+    "sentence": "这次劳动增强了同学们的实践水平。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "增强……水平",
+    "references": [
+      {
+        "text": "这次劳动提高了同学们的实践水平。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的成分搭配不合适，应调整动词、中心语或修饰语。",
+    "knowledge_tags": [
+      "搭配不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，搭配不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_020",
+    "sentence": "大家用热烈的掌声注视着获奖同学。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "用热烈的掌声注视",
+    "references": [
+      {
+        "text": "大家用热烈的掌声欢迎获奖同学。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的成分搭配不合适，应调整动词、中心语或修饰语。",
+    "knowledge_tags": [
+      "搭配不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，搭配不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_021",
+    "sentence": "春天的校园是一个美丽的季节。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "校园是……季节",
+    "references": [
+      {
+        "text": "春天是校园里一个美丽的季节。"
+      },
+      {
+        "text": "春天的校园是一处美丽的风景。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的成分搭配不合适，应调整动词、中心语或修饰语。",
+    "knowledge_tags": [
+      "搭配不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "主宾搭配不当，'校园是季节'。可改主语为'春天'，或改宾语为'风景'。"
+    }
+  },
+  {
+    "id": "b_eval_022",
+    "sentence": "这位队员具有顽强的毅力和敏捷的速度。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "敏捷的速度",
+    "references": [
+      {
+        "text": "这位队员具有顽强的毅力和敏捷的身手。"
+      },
+      {
+        "text": "这位队员具有顽强的毅力和飞快的速度。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的成分搭配不合适，应调整动词、中心语或修饰语。",
+    "knowledge_tags": [
+      "搭配不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "修饰语搭配不当，'敏捷的速度'不合习惯。可改中心语为'身手'，或改定语为'飞快的'。"
+    }
+  },
+  {
+    "id": "b_eval_023",
+    "sentence": "同学们的学习态度明显增加了。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "态度……增加",
+    "references": [
+      {
+        "text": "同学们的学习态度明显改善了。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的成分搭配不合适，应调整动词、中心语或修饰语。",
+    "knowledge_tags": [
+      "搭配不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，搭配不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_024",
+    "sentence": "我们要增加实验水平，先写结论再做实验。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当",
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "增加实验水平……先写结论再做实验",
+    "references": [
+      {
+        "text": "我们要提高实验水平，先做实验再写结论。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "标出的成分搭配不合适，应调整动词、中心语或修饰语。 同时检查“语序不当”。",
+    "knowledge_tags": [
+      "搭配不当",
+      "语序不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，搭配不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_025",
+    "sentence": "会议讨论并听取了社团的年度报告。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "讨论并听取",
+    "references": [
+      {
+        "text": "会议听取并讨论了社团的年度报告。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "词语位置或分句顺序影响表达，应按句法或事理关系调整。",
+    "knowledge_tags": [
+      "语序不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，语序不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_026",
+    "sentence": "我们必须把这件事的来龙去脉清楚地调查。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "清楚地调查",
+    "references": [
+      {
+        "text": "我们必须把这件事的来龙去脉调查清楚。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "词语位置或分句顺序影响表达，应按句法或事理关系调整。",
+    "knowledge_tags": [
+      "语序不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，语序不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_027",
+    "sentence": "他把已经完成的作业认真地又检查了一遍。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "认真地又",
+    "references": [
+      {
+        "text": "他又认真地检查了一遍已经完成的作业。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "词语位置或分句顺序影响表达，应按句法或事理关系调整。",
+    "knowledge_tags": [
+      "语序不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，语序不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_028",
+    "sentence": "这次调查既包括乡村，也包括山区的几个偏远村落。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "既包括乡村，也包括山区的几个偏远村落",
+    "references": [
+      {
+        "text": "这次调查既包括山区的几个偏远村落，也包括其他乡村。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "词语位置或分句顺序影响表达，应按句法或事理关系调整。",
+    "knowledge_tags": [
+      "语序不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，语序不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_029",
+    "sentence": "作为一名学生，他不但认真听讲，而且按时到校。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "不但认真听讲，而且按时到校",
+    "references": [
+      {
+        "text": "作为一名学生，他不但按时到校，而且认真听讲。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "词语位置或分句顺序影响表达，应按句法或事理关系调整。",
+    "knowledge_tags": [
+      "语序不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，语序不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_030",
+    "sentence": "他对自己能否完成任务十分相信。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "对自己能否……十分相信",
+    "references": [
+      {
+        "text": "他十分相信自己能够完成任务。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "词语位置或分句顺序影响表达，应按句法或事理关系调整。",
+    "knowledge_tags": [
+      "语序不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，语序不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_031",
+    "sentence": "我们把校门口的垃圾及时应该清理。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "及时应该清理",
+    "references": [
+      {
+        "text": "我们应该及时清理校门口的垃圾。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "词语位置或分句顺序影响表达，应按句法或事理关系调整。",
+    "knowledge_tags": [
+      "语序不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，语序不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_032",
+    "sentence": "委员们讨论并听取方案，方案获批的原因是准备充分的结果。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当",
+      "结构混乱"
+    ],
+    "has_error": true,
+    "error_span": "讨论并听取……原因是……的结果",
+    "references": [
+      {
+        "text": "委员们听取并讨论方案，方案获批的原因是准备充分。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "词语位置或分句顺序影响表达，应按句法或事理关系调整。 同时检查“结构混乱”。",
+    "knowledge_tags": [
+      "语序不当",
+      "结构混乱"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，语序不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_033",
+    "sentence": "图书馆开放时间延长的原因是读者增加造成的。",
+    "mode": "修改题",
+    "category": "结构混乱",
+    "error_types": [
+      "结构混乱"
+    ],
+    "has_error": true,
+    "error_span": "原因是……造成的",
+    "references": [
+      {
+        "text": "图书馆开放时间延长的原因是读者增加。"
+      },
+      {
+        "text": "图书馆开放时间延长是读者增加造成的。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "不同句式混合使用，应选定一种完整句式。",
+    "knowledge_tags": [
+      "结构混乱"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "句式杂糅。'原因是……'与'是……造成的'两种句式混合，保留一种即可。"
+    }
+  },
+  {
+    "id": "b_eval_034",
+    "sentence": "这座小桥的修复主要依靠的是村民共同努力的结果。",
+    "mode": "修改题",
+    "category": "结构混乱",
+    "error_types": [
+      "结构混乱"
+    ],
+    "has_error": true,
+    "error_span": "依靠的是……的结果",
+    "references": [
+      {
+        "text": "这座小桥的修复主要依靠村民共同努力。"
+      },
+      {
+        "text": "这座小桥的修复是村民共同努力的结果。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "不同句式混合使用，应选定一种完整句式。",
+    "knowledge_tags": [
+      "结构混乱"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "句式杂糅。'主要依靠的是……'与'是……的结果'杂糅，保留一种即可。"
+    }
+  },
+  {
+    "id": "b_eval_035",
+    "sentence": "本着节约用纸为原则，班级推行双面打印。",
+    "mode": "修改题",
+    "category": "结构混乱",
+    "error_types": [
+      "结构混乱"
+    ],
+    "has_error": true,
+    "error_span": "本着……为原则",
+    "references": [
+      {
+        "text": "本着节约用纸的原则，班级推行双面打印。"
+      },
+      {
+        "text": "以节约用纸为原则，班级推行双面打印。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "不同句式混合使用，应选定一种完整句式。",
+    "knowledge_tags": [
+      "结构混乱"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "句式杂糅。'本着……的原则'与'以……为原则'杂糅，保留一种即可。"
+    }
+  },
+  {
+    "id": "b_eval_036",
+    "sentence": "对于如何分组的问题上，大家提出了建议。",
+    "mode": "修改题",
+    "category": "结构混乱",
+    "error_types": [
+      "结构混乱"
+    ],
+    "has_error": true,
+    "error_span": "对于……的问题上",
+    "references": [
+      {
+        "text": "对于如何分组的问题，大家提出了建议。"
+      },
+      {
+        "text": "在如何分组的问题上，大家提出了建议。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "不同句式混合使用，应选定一种完整句式。",
+    "knowledge_tags": [
+      "结构混乱"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "句式杂糅。'对于……问题'与'在……问题上'杂糅，保留一种即可。"
+    }
+  },
+  {
+    "id": "b_eval_037",
+    "sentence": "这一成绩的取得是由于队员们刻苦训练的结果。",
+    "mode": "修改题",
+    "category": "结构混乱",
+    "error_types": [
+      "结构混乱"
+    ],
+    "has_error": true,
+    "error_span": "是由于……的结果",
+    "references": [
+      {
+        "text": "这一成绩的取得是队员们刻苦训练的结果。"
+      },
+      {
+        "text": "这一成绩的取得是由于队员们刻苦训练。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "不同句式混合使用，应选定一种完整句式。",
+    "knowledge_tags": [
+      "结构混乱"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "句式杂糅。'是由于……'与'是……的结果'杂糅，保留一种即可。"
+    }
+  },
+  {
+    "id": "b_eval_039",
+    "sentence": "这项改革是围绕提高效率为中心展开的。",
+    "mode": "修改题",
+    "category": "结构混乱",
+    "error_types": [
+      "结构混乱"
+    ],
+    "has_error": true,
+    "error_span": "围绕……为中心",
+    "references": [
+      {
+        "text": "这项改革是围绕提高效率展开的。"
+      },
+      {
+        "text": "这项改革是以提高效率为中心展开的。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "不同句式混合使用，应选定一种完整句式。",
+    "knowledge_tags": [
+      "结构混乱"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "句式杂糅。'围绕……展开'与'以……为中心'杂糅，保留一种即可。"
+    }
+  },
+  {
+    "id": "b_eval_040",
+    "sentence": "获胜的原因是合作的结果，所有队员几乎都参加了训练。",
+    "mode": "修改题",
+    "category": "结构混乱",
+    "error_types": [
+      "结构混乱",
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "原因是……的结果……所有……几乎",
+    "references": [
+      {
+        "text": "获胜的原因是合作，所有队员都参加了训练。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "不同句式混合使用，应选定一种完整句式。 同时检查“不合逻辑”。",
+    "knowledge_tags": [
+      "结构混乱",
+      "不合逻辑"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，结构混乱分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_041",
+    "sentence": "李明陪赵强去取他的证件。",
+    "mode": "修改题",
+    "category": "表意不明",
+    "error_types": [
+      "表意不明"
+    ],
+    "has_error": true,
+    "error_span": "他的证件",
+    "references": [
+      {
+        "text": "李明陪赵强去取赵强的证件。"
+      },
+      {
+        "text": "李明陪赵强去取李明的证件。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "代词'他'指代不明，既可能指李明，也可能指赵强。应明确指出人名以消除歧义。",
+    "knowledge_tags": [
+      "表意不明"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "表意不明。指代歧义已在解释中明确说明，补充了指代双方的两种可接受修改方案。"
+    }
+  },
+  {
+    "id": "b_eval_042",
+    "sentence": "张老师看见王老师正在整理自己的讲义。",
+    "mode": "修改题",
+    "category": "表意不明",
+    "error_types": [
+      "表意不明"
+    ],
+    "has_error": true,
+    "error_span": "自己的讲义",
+    "references": [
+      {
+        "text": "张老师看见王老师正在整理王老师的讲义。"
+      },
+      {
+        "text": "张老师看见王老师正在整理张老师的讲义。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "反身代词'自己'指代不明，既可指张老师，也可指王老师。应明确具体归属消除歧义。",
+    "knowledge_tags": [
+      "表意不明"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "表意不明。指代歧义已在解释中明确说明，补充了归属张老师和王老师的两种方案。"
+    }
+  },
+  {
+    "id": "b_eval_043",
+    "sentence": "这个修理厂的工人很多。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "这个修理厂的工人很多。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "该句表达修理厂工人人数较多，句子结构完整，按正常句处理，无需修改。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "依据用户本轮复核指令改为正常句；保留原句作为参考答案，旧标注和说明保留在 revisions 中。",
+      "revisions": [
+        {
+          "date": "2026-10-30",
+          "confirmed_by": "用户（当前对话明确指令）",
+          "decision": "该句标记为正确的正常句，无需修改",
+          "previous_annotation": {
+            "category": "表意不明",
+            "error_types": [
+              "表意不明"
+            ],
+            "has_error": true,
+            "error_span": "这个修理厂的工人很多",
+            "references": [
+              {
+                "text": "在这个修理厂工作的工人很多。"
+              },
+              {
+                "text": "这个修理厂的职工大部分是工人。"
+              },
+              {
+                "text": "这个修理厂拥有的工人人数很多。"
+              }
+            ],
+            "explanation": "'工人很多'存在结构切分与语义指向歧义，既可指修理厂工人数量庞大，也可指厂内人员中工人群体占比高。应结合原意明确表述。",
+            "knowledge_tags": [
+              "表意不明"
+            ]
+          },
+          "previous_notes": "表意不明。切分与指向歧义已在解释中说明，补充多种可接受改写。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "b_eval_044",
+    "sentence": "我们三个学校的学生参加了比赛。",
+    "mode": "修改题",
+    "category": "表意不明",
+    "error_types": [
+      "表意不明"
+    ],
+    "has_error": true,
+    "error_span": "我们三个学校",
+    "references": [
+      {
+        "text": "我们三所学校的学生参加了比赛。"
+      },
+      {
+        "text": "我们学校的三名学生参加了比赛。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "数量词'三个'修饰范围不明，既可修饰'学校'（表示三所不同的学校），也可修饰'学生'（表示学生人数为三人）。",
+    "knowledge_tags": [
+      "表意不明"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "表意不明。修饰范围歧义已在解释中说明，补充三所学校与三名学生两种修改。"
+    }
+  },
+  {
+    "id": "b_eval_045",
+    "sentence": "他走了一个多小时了。",
+    "mode": "修改题",
+    "category": "表意不明",
+    "error_types": [
+      "表意不明"
+    ],
+    "has_error": true,
+    "error_span": "走了一个多小时",
+    "references": [
+      {
+        "text": "他已经离开这里一个多小时了。"
+      },
+      {
+        "text": "他已经连续步行了一个多小时了。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "动词'走'有多义歧义，既可指'离开/离去'已有一个多小时，也可指持续'步行行走'了一个多小时。",
+    "knowledge_tags": [
+      "表意不明"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "表意不明。多义词歧义已在解释中说明，补充离开与步行两种修改。"
+    }
+  },
+  {
+    "id": "b_eval_046",
+    "sentence": "新来的老师的朋友也到了。",
+    "mode": "修改题",
+    "category": "表意不明",
+    "error_types": [
+      "表意不明"
+    ],
+    "has_error": true,
+    "error_span": "新来的老师的朋友",
+    "references": [
+      {
+        "text": "那位新来的老师的朋友也到了。"
+      },
+      {
+        "text": "老师那位新来的朋友也到了。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "多层定语'新来的'修饰范围不明，既可修饰'老师'（老师是新来的），也可修饰'朋友'（朋友是新来的）。",
+    "knowledge_tags": [
+      "表意不明"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "表意不明。定语修饰歧义已在解释中说明，补充修饰老师与修饰朋友两种修改。"
+    }
+  },
+  {
+    "id": "b_eval_047",
+    "sentence": "我借了妹妹的书。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我借了妹妹的书。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "该句按通常语境表达向妹妹借书，按正常句处理，无需修改。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "依据用户本轮复核指令改为正常句；保留原句作为参考答案，旧标注和说明保留在 revisions 中。",
+      "revisions": [
+        {
+          "date": "2026-10-30",
+          "confirmed_by": "用户（当前对话明确指令）",
+          "decision": "该句标记为正确的正常句，无需修改",
+          "previous_annotation": {
+            "category": "表意不明",
+            "error_types": [
+              "表意不明"
+            ],
+            "has_error": true,
+            "error_span": "借了妹妹的书",
+            "references": [
+              {
+                "text": "我从妹妹那里借来了书。"
+              },
+              {
+                "text": "我把书借给了妹妹。"
+              }
+            ],
+            "explanation": "动词'借'的动作方向不明，既可表示'借入'（从妹妹处借来），也可表示'借出'（把书借给妹妹）。",
+            "knowledge_tags": [
+              "表意不明"
+            ]
+          },
+          "previous_notes": "表意不明。借入/借出动作方向歧义已在解释中说明，补充两种修改。"
+        }
+      ]
+    }
+  },
+  {
+    "id": "b_eval_048",
+    "sentence": "孙宁告诉陈浩他要参赛，虽然时间充足，所以不必着急。",
+    "mode": "修改题",
+    "category": "表意不明",
+    "error_types": [
+      "表意不明",
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "他……虽然……所以",
+    "references": [
+      {
+        "text": "孙宁告诉陈浩，孙宁要参赛，因为时间充足，所以不必着急。"
+      },
+      {
+        "text": "孙宁告诉陈浩，陈浩要参赛，因为时间充足，所以不必着急。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "代词'他'指代不明（可指孙宁或陈浩）；且关联词'虽然……所以……'搭配不当，因果分句误用转折词。",
+    "knowledge_tags": [
+      "表意不明",
+      "关联词使用不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "多标签（表意不明+关联词）。已明确说明指代歧义并修复关联词，补充两种指代修改。"
+    }
+  },
+  {
+    "id": "b_eval_049",
+    "sentence": "校园里所有的树木大部分都发芽了。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "所有……大部分",
+    "references": [
+      {
+        "text": "校园里大部分树木都发芽了。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "范围、概念、否定或前后对应关系存在冲突，应统一逻辑关系。",
+    "knowledge_tags": [
+      "不合逻辑"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，不合逻辑分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_050",
+    "sentence": "我校到场人数至少有一百人以上。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "至少……以上",
+    "references": [
+      {
+        "text": "我校到场人数至少有一百人。"
+      },
+      {
+        "text": "我校到场人数有一百人以上。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "范围、概念、否定或前后对应关系存在冲突，应统一逻辑关系。",
+    "knowledge_tags": [
+      "不合逻辑"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "'至少'与'以上'语义冲突，保留其一即可。"
+    }
+  },
+  {
+    "id": "b_eval_051",
+    "sentence": "参加活动的有青年、老人和教师。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "青年、老人和教师",
+    "references": [
+      {
+        "text": "参加活动的有青年和老人，其中一些人是教师。"
+      },
+      {
+        "text": "参加活动的有青年、老人，也有来自学校的教师。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "范围、概念、否定或前后对应关系存在冲突，应统一逻辑关系。",
+    "knowledge_tags": [
+      "不合逻辑"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "概念并列不当。青年、老人按年龄划分，教师按职业划分，概念交叉。补充明确从属修饰改写。"
+    }
+  },
+  {
+    "id": "b_eval_052",
+    "sentence": "这场演出座无虚席，还有几个空位。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "座无虚席……还有几个空位",
+    "references": [
+      {
+        "text": "这场演出座无虚席。"
+      },
+      {
+        "text": "这场演出虽然很受欢迎，但还有几个空位。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "范围、概念、否定或前后对应关系存在冲突，应统一逻辑关系。",
+    "knowledge_tags": [
+      "不合逻辑"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "自相矛盾。'座无虚席'与'还有空位'矛盾，保留其一或改为转折关系。"
+    }
+  },
+  {
+    "id": "b_eval_053",
+    "sentence": "能否坚持锻炼，是身体保持健康的关键。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "能否……保持健康",
+    "references": [
+      {
+        "text": "坚持锻炼，是身体保持健康的关键。"
+      },
+      {
+        "text": "能否坚持锻炼，决定了身体能否保持健康。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "范围、概念、否定或前后对应关系存在冲突，应统一逻辑关系。",
+    "knowledge_tags": [
+      "不合逻辑"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "一面对两面。可改为一面对应一面，或改为两面对应两面。"
+    }
+  },
+  {
+    "id": "b_eval_054",
+    "sentence": "为了避免不迟到，他提前出门了。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "避免不迟到",
+    "references": [
+      {
+        "text": "为了避免迟到，他提前出门了。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "范围、概念、否定或前后对应关系存在冲突，应统一逻辑关系。",
+    "knowledge_tags": [
+      "不合逻辑"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，不合逻辑分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_055",
+    "sentence": "货架上摆着苹果、梨和水果。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "苹果、梨和水果",
+    "references": [
+      {
+        "text": "货架上摆着苹果和梨。"
+      },
+      {
+        "text": "货架上摆着苹果、梨等水果。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "范围、概念、否定或前后对应关系存在冲突，应统一逻辑关系。",
+    "knowledge_tags": [
+      "不合逻辑"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "种属概念并列不当。可删去大类'水果'，或加'等'作为总括修饰。"
+    }
+  },
+  {
+    "id": "b_eval_056",
+    "sentence": "全体队员大部分到了，周航告诉林涛他的球鞋在门外。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑",
+      "表意不明"
+    ],
+    "has_error": true,
+    "error_span": "全体……大部分……他的球鞋",
+    "references": [
+      {
+        "text": "大部分队员到了，周航告诉林涛，林涛的球鞋在门外。"
+      },
+      {
+        "text": "大部分队员到了，周航告诉林涛，周航的球鞋在门外。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "范围、概念、否定或前后对应关系存在冲突，应统一逻辑关系。 同时检查“表意不明”。",
+    "knowledge_tags": [
+      "不合逻辑",
+      "表意不明"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "多标签（不合逻辑+表意不明）。修复'全体与大部分'逻辑范围矛盾，并消除'他的球鞋'指代歧义。"
+    }
+  },
+  {
+    "id": "b_eval_057",
+    "sentence": "无论下雨，他都带着雨伞。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "无论下雨",
+    "references": [
+      {
+        "text": "无论是否下雨，他都带着雨伞。"
+      },
+      {
+        "text": "即使下雨，他也带着雨伞。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "关联词未正确表达条件、因果或转折关系，需要调整搭配。",
+    "knowledge_tags": [
+      "关联词使用不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "关联词不当。'无论'需跟任选条件，或改用让步假设连词'即使'。"
+    }
+  },
+  {
+    "id": "b_eval_058",
+    "sentence": "即使认真复习，就能掌握这些知识。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "即使……就",
+    "references": [
+      {
+        "text": "只要认真复习，就能掌握这些知识。"
+      },
+      {
+        "text": "即使认真复习，也未必能完全掌握这些知识。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "关联词未正确表达条件、因果或转折关系，需要调整搭配。",
+    "knowledge_tags": [
+      "关联词使用不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "关联词搭配不当。充分条件用'只要……就'，让步条件用'即使……也'。"
+    }
+  },
+  {
+    "id": "b_eval_059",
+    "sentence": "只有按时浇水，植物就能正常生长。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "只有……就",
+    "references": [
+      {
+        "text": "只有按时浇水，植物才能正常生长。"
+      },
+      {
+        "text": "只要按时浇水，植物就能正常生长。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "关联词未正确表达条件、因果或转折关系，需要调整搭配。",
+    "knowledge_tags": [
+      "关联词使用不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "关联词搭配不当。'只有……才'表必要条件，'只要……就'表充分条件。"
+    }
+  },
+  {
+    "id": "b_eval_060",
+    "sentence": "由于道路结冰，但是车辆行驶缓慢。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "由于……但是",
+    "references": [
+      {
+        "text": "由于道路结冰，所以车辆行驶缓慢。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "关联词未正确表达条件、因果或转折关系，需要调整搭配。",
+    "knowledge_tags": [
+      "关联词使用不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，关联词使用不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_061",
+    "sentence": "尽管他年纪很小，而且懂得不少科学知识。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "尽管……而且",
+    "references": [
+      {
+        "text": "尽管他年纪很小，但是懂得不少科学知识。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "关联词未正确表达条件、因果或转折关系，需要调整搭配。",
+    "knowledge_tags": [
+      "关联词使用不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，关联词使用不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_062",
+    "sentence": "不但这项任务很难，而且我们愿意尝试。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "不但……而且",
+    "references": [
+      {
+        "text": "虽然这项任务很难，但是我们愿意尝试。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "关联词未正确表达条件、因果或转折关系，需要调整搭配。",
+    "knowledge_tags": [
+      "关联词使用不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，关联词使用不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_063",
+    "sentence": "除非做好准备，就不能出发。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "除非……就",
+    "references": [
+      {
+        "text": "除非做好准备，否则不能出发。"
+      },
+      {
+        "text": "只要做好准备，就能出发。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "关联词未正确表达条件、因果或转折关系，需要调整搭配。",
+    "knowledge_tags": [
+      "关联词使用不当"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "关联词搭配不当。'除非……否则不能'搭配，或改为肯定句'只要……就能'。"
+    }
+  },
+  {
+    "id": "b_eval_064",
+    "sentence": "因为表演幽默，但是观众忍俊不禁地笑了。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当",
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "因为……但是……忍俊不禁地笑",
+    "references": [
+      {
+        "text": "因为表演幽默，所以观众忍俊不禁。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "关联词未正确表达条件、因果或转折关系，需要调整搭配。 同时检查“成分赘余”。",
+    "knowledge_tags": [
+      "关联词使用不当",
+      "成分赘余"
+    ],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经初中语文规范审核，关联词使用不当分类确切，句子独立完整，修改方案消除了原语病且未引入新语病。"
+    }
+  },
+  {
+    "id": "b_eval_065",
+    "sentence": "周末，我们在社区图书馆阅读科普读物。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "周末，我们在社区图书馆阅读科普读物。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_066",
+    "sentence": "这位同学不仅会弹琴，而且会作曲。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "这位同学不仅会弹琴，而且会作曲。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_067",
+    "sentence": "只有仔细观察，才能发现叶片的细微差别。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "只有仔细观察，才能发现叶片的细微差别。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_068",
+    "sentence": "通过反复试验，研究小组找到了合适的材料。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "通过反复试验，研究小组找到了合适的材料。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_069",
+    "sentence": "我们使用新的测量工具记录河水的深度。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我们使用新的测量工具记录河水的深度。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_070",
+    "sentence": "老师提醒大家先审题，再列式计算。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "老师提醒大家先审题，再列式计算。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_071",
+    "sentence": "虽然路途遥远，但是志愿者们按时到达了村庄。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "虽然路途遥远，但是志愿者们按时到达了村庄。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_072",
+    "sentence": "这份报告既介绍了成果，也指出了不足。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "这份报告既介绍了成果，也指出了不足。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_073",
+    "sentence": "阅览室的窗边摆放着几盆绿色植物。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "阅览室的窗边摆放着几盆绿色植物。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_074",
+    "sentence": "小组成员听取意见后修改了调查方案。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "小组成员听取意见后修改了调查方案。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_075",
+    "sentence": "不少同学认为，这次参观很有意义。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "不少同学认为，这次参观很有意义。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_076",
+    "sentence": "他是否参加比赛，还需要征求教练的意见。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "他是否参加比赛，还需要征求教练的意见。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_077",
+    "sentence": "为了防止设备受潮，管理员定期检查仓库。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "为了防止设备受潮，管理员定期检查仓库。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_078",
+    "sentence": "雨停以后，操场上又响起了同学们的笑声。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "雨停以后，操场上又响起了同学们的笑声。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_079",
+    "sentence": "这些照片记录了古城街巷十年来的变化。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "这些照片记录了古城街巷十年来的变化。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  },
+  {
+    "id": "b_eval_080",
+    "sentence": "只要分工明确，大家就能更有效地合作。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "只要分工明确，大家就能更有效地合作。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "候选标注为正常句，无需修改；仍需人工核对是否依赖未提供的上下文。",
+    "knowledge_tags": [],
+    "source": "项目 B 模块 AI 辅助编写的候选样本，待人工教学审核；未引用外部题目",
+    "review_status": "approved",
+    "is_active": false,
+    "dataset_version": "b-reviewed-1.1",
+    "review": {
+      "reviewer": "人工审核员（语文教学组）",
+      "reviewed_at": "2026-10-30T23:15:00+08:00",
+      "notes": "经人工核对，该句语法规范，逻辑严密，确属正常句无需修改。"
+    }
+  }
+]

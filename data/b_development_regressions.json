@@ -1,0 +1,457 @@
+[
+  {
+    "id": "b_dev_001",
+    "sentence": "通过开展此次活动，使同学们提高了环保意识。",
+    "expected_demo_output": {
+      "has_error": true,
+      "error_types": [
+        "结构混乱",
+        "成分残缺"
+      ],
+      "error_span": "通过……使……",
+      "explanation": "[Mock 演示样例] 介词结构与使令结构连用，主语缺失。",
+      "corrections": [
+        {
+          "text": "开展此次活动，使同学们提高了环保意识。",
+          "kind": "最小修改",
+          "reason": "介词结构与使令结构连用，主语缺失。"
+        },
+        {
+          "text": "通过开展此次活动，同学们提高了环保意识。",
+          "kind": "另一种合理修改",
+          "reason": "介词结构与使令结构连用，主语缺失。"
+        }
+      ],
+      "hints": [
+        {
+          "level": 1,
+          "text": "观察“通过……使……”。"
+        },
+        {
+          "level": 2,
+          "text": "检查结构混乱。"
+        },
+        {
+          "level": 3,
+          "text": "介词结构与使令结构连用，主语缺失。"
+        }
+      ],
+      "confidence": 1.0,
+      "needs_context": false
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_002",
+    "sentence": "经过医生的治疗，使病人恢复了健康。",
+    "expected_demo_output": {
+      "has_error": true,
+      "error_types": [
+        "成分残缺"
+      ],
+      "error_span": "经过……使……",
+      "explanation": "[Mock 演示样例] 介词结构掩盖了主语。",
+      "corrections": [
+        {
+          "text": "经过医生的治疗，病人恢复了健康。",
+          "kind": "最小修改",
+          "reason": "介词结构掩盖了主语。"
+        }
+      ],
+      "hints": [
+        {
+          "level": 1,
+          "text": "观察“经过……使……”。"
+        },
+        {
+          "level": 2,
+          "text": "检查成分残缺。"
+        },
+        {
+          "level": 3,
+          "text": "介词结构掩盖了主语。"
+        }
+      ],
+      "confidence": 1.0,
+      "needs_context": false
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_003",
+    "sentence": "他忍俊不禁地笑了起来。",
+    "expected_demo_output": {
+      "has_error": true,
+      "error_types": [
+        "成分赘余"
+      ],
+      "error_span": "忍俊不禁地笑",
+      "explanation": "[Mock 演示样例] 忍俊不禁已包含笑的意思。",
+      "corrections": [
+        {
+          "text": "他忍俊不禁。",
+          "kind": "最小修改",
+          "reason": "忍俊不禁已包含笑的意思。"
+        }
+      ],
+      "hints": [
+        {
+          "level": 1,
+          "text": "观察“忍俊不禁地笑”。"
+        },
+        {
+          "level": 2,
+          "text": "检查成分赘余。"
+        },
+        {
+          "level": 3,
+          "text": "忍俊不禁已包含笑的意思。"
+        }
+      ],
+      "confidence": 1.0,
+      "needs_context": false
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_004",
+    "sentence": "我们要提高阅读的习惯。",
+    "expected_demo_output": {
+      "has_error": true,
+      "error_types": [
+        "搭配不当"
+      ],
+      "error_span": "提高阅读的习惯",
+      "explanation": "[Mock 演示样例] 提高不能搭配习惯。",
+      "corrections": [
+        {
+          "text": "我们要养成阅读的习惯。",
+          "kind": "最小修改",
+          "reason": "提高不能搭配习惯。"
+        }
+      ],
+      "hints": [
+        {
+          "level": 1,
+          "text": "观察“提高阅读的习惯”。"
+        },
+        {
+          "level": 2,
+          "text": "检查搭配不当。"
+        },
+        {
+          "level": 3,
+          "text": "提高不能搭配习惯。"
+        }
+      ],
+      "confidence": 1.0,
+      "needs_context": false
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_005",
+    "sentence": "这本书对我很感兴趣。",
+    "expected_demo_output": {
+      "has_error": true,
+      "error_types": [
+        "语序不当"
+      ],
+      "error_span": "这本书对我",
+      "explanation": "[Mock 演示样例] 感兴趣的主体与对象位置颠倒。",
+      "corrections": [
+        {
+          "text": "我对这本书很感兴趣。",
+          "kind": "最小修改",
+          "reason": "感兴趣的主体与对象位置颠倒。"
+        }
+      ],
+      "hints": [
+        {
+          "level": 1,
+          "text": "观察“这本书对我”。"
+        },
+        {
+          "level": 2,
+          "text": "检查语序不当。"
+        },
+        {
+          "level": 3,
+          "text": "感兴趣的主体与对象位置颠倒。"
+        }
+      ],
+      "confidence": 1.0,
+      "needs_context": false
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_006",
+    "sentence": "这项工作能成功的原因是大家合作的结果。",
+    "expected_demo_output": {
+      "has_error": true,
+      "error_types": [
+        "结构混乱"
+      ],
+      "error_span": "原因是……的结果",
+      "explanation": "[Mock 演示样例] 原因是与是……的结果两种句式杂糅。",
+      "corrections": [
+        {
+          "text": "这项工作能成功的原因是大家合作。",
+          "kind": "最小修改",
+          "reason": "原因是与是……的结果两种句式杂糅。"
+        }
+      ],
+      "hints": [
+        {
+          "level": 1,
+          "text": "观察“原因是……的结果”。"
+        },
+        {
+          "level": 2,
+          "text": "检查结构混乱。"
+        },
+        {
+          "level": 3,
+          "text": "原因是与是……的结果两种句式杂糅。"
+        }
+      ],
+      "confidence": 1.0,
+      "needs_context": false
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_007",
+    "sentence": "小张告诉小李，他的书丢了。",
+    "expected_demo_output": {
+      "has_error": true,
+      "error_types": [
+        "表意不明"
+      ],
+      "error_span": "他的书",
+      "explanation": "[Mock 演示样例] 他可能指小张，也可能指小李。",
+      "corrections": [
+        {
+          "text": "小张告诉小李，小张的书丢了。",
+          "kind": "最小修改",
+          "reason": "他可能指小张，也可能指小李。"
+        },
+        {
+          "text": "小张告诉小李，小李的书丢了。",
+          "kind": "另一种合理修改",
+          "reason": "他可能指小张，也可能指小李。"
+        }
+      ],
+      "hints": [
+        {
+          "level": 1,
+          "text": "观察“他的书”。"
+        },
+        {
+          "level": 2,
+          "text": "检查表意不明。"
+        },
+        {
+          "level": 3,
+          "text": "他可能指小张，也可能指小李。"
+        }
+      ],
+      "confidence": 0.5,
+      "needs_context": true
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_008",
+    "sentence": "全班所有同学基本上都到齐了。",
+    "expected_demo_output": {
+      "has_error": true,
+      "error_types": [
+        "不合逻辑"
+      ],
+      "error_span": "所有……基本上",
+      "explanation": "[Mock 演示样例] 所有与基本上限定范围冲突。",
+      "corrections": [
+        {
+          "text": "全班所有同学都到齐了。",
+          "kind": "最小修改",
+          "reason": "所有与基本上限定范围冲突。"
+        }
+      ],
+      "hints": [
+        {
+          "level": 1,
+          "text": "观察“所有……基本上”。"
+        },
+        {
+          "level": 2,
+          "text": "检查不合逻辑。"
+        },
+        {
+          "level": 3,
+          "text": "所有与基本上限定范围冲突。"
+        }
+      ],
+      "confidence": 1.0,
+      "needs_context": false
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_009",
+    "sentence": "虽然天气晴朗，所以我们出发了。",
+    "expected_demo_output": {
+      "has_error": true,
+      "error_types": [
+        "关联词使用不当"
+      ],
+      "error_span": "虽然……所以……",
+      "explanation": "[Mock 演示样例] 转折关联词与因果关联词搭配不当。",
+      "corrections": [
+        {
+          "text": "因为天气晴朗，所以我们出发了。",
+          "kind": "最小修改",
+          "reason": "转折关联词与因果关联词搭配不当。"
+        }
+      ],
+      "hints": [
+        {
+          "level": 1,
+          "text": "观察“虽然……所以……”。"
+        },
+        {
+          "level": 2,
+          "text": "检查关联词使用不当。"
+        },
+        {
+          "level": 3,
+          "text": "转折关联词与因果关联词搭配不当。"
+        }
+      ],
+      "confidence": 1.0,
+      "needs_context": false
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_010",
+    "sentence": "通过学习，他能够熟练使用这台机器。",
+    "expected_demo_output": {
+      "has_error": false,
+      "error_types": [],
+      "error_span": null,
+      "explanation": "[Mock 演示样例] 该固定样例为正常句。",
+      "corrections": [],
+      "hints": [],
+      "confidence": 1.0,
+      "needs_context": false
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_011",
+    "sentence": "我们通过努力，使计划顺利完成。",
+    "expected_demo_output": {
+      "has_error": false,
+      "error_types": [],
+      "error_span": null,
+      "explanation": "[Mock 演示样例] 该固定样例为正常句。",
+      "corrections": [],
+      "hints": [],
+      "confidence": 1.0,
+      "needs_context": false
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_012",
+    "sentence": "今天的天空很蓝。",
+    "expected_demo_output": {
+      "has_error": false,
+      "error_types": [],
+      "error_span": null,
+      "explanation": "[Mock 演示样例] 该固定样例为正常句。",
+      "corrections": [],
+      "hints": [],
+      "confidence": 1.0,
+      "needs_context": false
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_013",
+    "sentence": "同学们认真地完成了作业。",
+    "expected_demo_output": {
+      "has_error": false,
+      "error_types": [],
+      "error_span": null,
+      "explanation": "[Mock 演示样例] 该固定样例为正常句。",
+      "corrections": [],
+      "hints": [],
+      "confidence": 1.0,
+      "needs_context": false
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_014",
+    "sentence": "这件事情就是这样。",
+    "expected_demo_output": {
+      "has_error": false,
+      "error_types": [],
+      "error_span": null,
+      "explanation": "[Mock 未覆盖] 当前是离线演示，无法判断此句；请配置真实模型或人工复核。",
+      "corrections": [],
+      "hints": [],
+      "confidence": 0.0,
+      "needs_context": true
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_015",
+    "sentence": "他比我更喜欢她。",
+    "expected_demo_output": {
+      "has_error": false,
+      "error_types": [],
+      "error_span": null,
+      "explanation": "[Mock 未覆盖] 当前是离线演示，无法判断此句；请配置真实模型或人工复核。",
+      "corrections": [],
+      "hints": [],
+      "confidence": 0.0,
+      "needs_context": true
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_016",
+    "sentence": "请结合上文判断这句话。",
+    "expected_demo_output": {
+      "has_error": false,
+      "error_types": [],
+      "error_span": null,
+      "explanation": "[Mock 未覆盖] 当前是离线演示，无法判断此句；请配置真实模型或人工复核。",
+      "corrections": [],
+      "hints": [],
+      "confidence": 0.0,
+      "needs_context": true
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  },
+  {
+    "id": "b_dev_017",
+    "sentence": "照他说的办。",
+    "expected_demo_output": {
+      "has_error": false,
+      "error_types": [],
+      "error_span": null,
+      "explanation": "[Mock 未覆盖] 当前是离线演示，无法判断此句；请配置真实模型或人工复核。",
+      "corrections": [],
+      "hints": [],
+      "confidence": 0.0,
+      "needs_context": true
+    },
+    "source": "B 模块固定开发样例；只检验程序回归，不作为模型质量标准"
+  }
+]
