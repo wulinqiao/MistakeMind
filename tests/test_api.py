@@ -30,6 +30,7 @@ def test_validation(client):
     r = client.post("/api/diagnose", json={"sentence": "   "})
     assert r.status_code == 400
     assert r.json()["error"]["code"] == "VALIDATION_ERROR"
+    assert r.json()["error"]["details"]["errors"][0]["ctx"]["error"] == "sentence 不能为空"
 
 
 def test_full_practice_flow(client):
