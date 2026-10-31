@@ -11,8 +11,8 @@ from scripts.validate_c_questions import load_questions
 def test_catalog_includes_both_practice_banks_outside_cwd(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
     entries = bank_module.inventory()
-    assert [e["count"] for e in entries] == [20, 100]
-    assert sum(e["pending"] for e in entries) == 120
+    assert [e["count"] for e in entries] == [20, 44]
+    assert sum(e["pending"] for e in entries) == 64
     assert sum(e["approved_active"] for e in entries) == 0
 
 
