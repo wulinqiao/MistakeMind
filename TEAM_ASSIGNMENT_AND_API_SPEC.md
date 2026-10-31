@@ -2,6 +2,18 @@
 
 本文档是 MistakeMind 的开发协作基线。所有成员在编写前端、后端、Agent、题库和评测代码时，必须以本文档中的接口、字段和状态定义为准。
 
+## v1.1 B 模块兼容增补（2026-10-30）
+
+- 路径和旧字段不变；meta.version=v1.1。DiagnosisResult 增加 needs_context（默认 false），grade、optional_context、need_hints 传入 Agent。
+- auto 模式有密钥时使用真实 Chat Completions，否则使用明确标识的固定演示样例；live 失败不回退 Mock。无模型支持的未知演示句需要复核，不宣称无病句。
+- MODEL_UNAVAILABLE：HTTP 502，模型配置、鉴权、限流或服务不可用；MODEL_TIMEOUT 504、MODEL_INVALID_JSON 502 保持原约定。
+- 自由诊断待复核时 success=true、review_status=needs_review，返回解释但不存为通过结果。学生作答待复核时 HTTP 200、success=false、data=null、error.code=MODEL_LOW_CONFIDENCE，不写成绩或画像。
+- 判断题固定返回“是病句/不是病句”选项；类别选择题返回统一标签选项，references 不作为选项公开。category 字段因旧契约兼容继续保留，正式盲测不能依靠前端练习接口隔离标签。
+- 修改题接受参考修改及经语义复核的其他合理修改。作答和诊断在同一事务保存；只有 passed 结果可以计分。
+- 单次模型调用默认 20 秒，业务总预算 60 秒/4 次请求；网络/429/5xx 最多一次重试，格式最多一次修复。置信度阈值 0.7 为可配自评门槛，不是校准概率。
+- 内部类型为 DiagnosisInputV1、DiagnosisOutputV1、ReviewOutputV1、AnswerAnalysisV1、AnswerReviewV1；类型定义见 agents/models.py。trace 使用 ISO 8601 时间，附模式、Prompt 版本、模型与用量，不含密钥或原始响应。
+- 正式评测仅使用人工 approved 测试样本；候选开发结果必须标记非正式。新数据不自动审核、启用或导入 C 题库。
+
 ## 1. 协作原则
 
 1. 先冻结 Schema，再开发具体模块。
