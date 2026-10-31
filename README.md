@@ -2,6 +2,12 @@
 
 面向学生的中文病句诊断、修改与个性化训练 Agent。
 
+## 题库在哪里
+
+练习候选题共有 **120 道**：原有 [20 道八类/正常句候选](data/questions.json)，新增 [100 道 CS2W 语法候选补充](data/external/cs2w_grammar_candidates.json)。请从 [题库总目录](data/README.md) 查看数量、来源与审核状态。它们目前仍待项目教学审核；B 模块评测数据与练习题库分开保存。
+
+运行 `python -m scripts.list_question_banks` 可校验并查看全部练习候选题数量。
+
 MistakeMind 不只是给出一个“正确答案”，而是围绕学生的错误形成完整训练闭环：
 
 ```text
@@ -216,3 +222,4 @@ python -X utf8 -m scripts.demo_b
 ## 许可证
 
 课程项目阶段暂未指定开源许可证。公开仓库前请由团队确认代码、题库和引用数据集的许可范围。
+
