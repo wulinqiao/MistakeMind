@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import os
 import sqlite3
+from contextlib import closing
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
@@ -29,7 +30,7 @@ class Database:
         return con
 
     def init_db(self) -> None:
-        with self.connect() as c:
+        with closing(self.connect()) as c, c:
             c.executescript("""
             CREATE TABLE IF NOT EXISTS users (
               id TEXT PRIMARY KEY, nickname TEXT NOT NULL DEFAULT '', grade TEXT,
@@ -60,17 +61,17 @@ class Database:
             """)
 
     def ensure_user(self, user_id: str, grade: str | None = None) -> None:
-        with self.connect() as c:
+        with closing(self.connect()) as c, c:
             c.execute("INSERT OR IGNORE INTO users(id, grade, created_at) VALUES (?, ?, ?)", (user_id, grade, now_iso()))
             if grade:
                 c.execute("UPDATE users SET grade = COALESCE(grade, ?) WHERE id = ?", (grade, user_id))
 
     def user_exists(self, user_id: str) -> bool:
-        with self.connect() as c:
+        with closing(self.connect()) as c, c:
             return c.execute("SELECT 1 FROM users WHERE id = ?", (user_id,)).fetchone() is not None
 
     def insert_diagnosis(self, result: dict[str, Any], attempt_id: str | None = None) -> None:
-        with self.connect() as c:
+        with closing(self.connect()) as c, c:
             c.execute("""INSERT INTO diagnoses
               (id, attempt_id, original_sentence, has_error, error_types_json, error_span, explanation, corrections_json, review_status, created_at)
               VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)""", (
@@ -86,38 +87,65 @@ class Database:
                 clauses.append(f"{col} = ?"); args.append(value)
         recent = set()
         if user_id:
-            with self.connect() as c:
+            with closing(self.connect()) as c, c:
                 recent = {r[0] for r in c.execute("SELECT question_id FROM attempts WHERE user_id = ? ORDER BY created_at DESC LIMIT 10", (user_id,))}
         query = f"SELECT * FROM questions WHERE {' AND '.join(clauses)} ORDER BY RANDOM() LIMIT ?"
-        with self.connect() as c:
+        with closing(self.connect()) as c, c:
             rows = c.execute(query, (*args, max(count * 3, count))).fetchall()
         selected = [r for r in rows if r["id"] not in recent][:count] or list(rows)[:count]
         return [dict(r) for r in selected]
 
     def get_question(self, question_id):
-        with self.connect() as c:
+        with closing(self.connect()) as c, c:
             row = c.execute("SELECT * FROM questions WHERE id = ? AND is_active = 1", (question_id,)).fetchone()
         return dict(row) if row else None
 
     def insert_attempt(self, attempt_id, user_id, question_id, answer, is_correct, hint_level, attempt_number):
         self.ensure_user(user_id)
-        with self.connect() as c:
+        with closing(self.connect()) as c, c:
             c.execute("""INSERT INTO attempts(id,user_id,question_id,answer_json,is_correct,hint_level_used,attempt_number,created_at)
               VALUES (?, ?, ?, ?, ?, ?, ?, ?)""", (attempt_id, user_id, question_id, json.dumps(answer, ensure_ascii=False), int(is_correct), hint_level, attempt_number, now_iso()))
+
+    def save_graded_attempt(self, attempt_id, user_id, question_id, answer, is_correct,
+                            hint_level, attempt_number, diagnosis):
+        """One transaction; a rejected diagnosis or failed insert cannot leave a score."""
+        if diagnosis.get("review_status") != "passed":
+            raise ValueError("only reviewed diagnoses can be scored")
+        with closing(self.connect()) as con, con:
+            con.execute("INSERT OR IGNORE INTO users(id, created_at) VALUES (?, ?)", (user_id, now_iso()))
+            con.execute("""INSERT INTO attempts
+              (id,user_id,question_id,answer_json,is_correct,hint_level_used,attempt_number,created_at)
+              VALUES (?,?,?,?,?,?,?,?)""", (attempt_id, user_id, question_id, json.dumps(answer, ensure_ascii=False),
+                  int(is_correct), hint_level, attempt_number, now_iso()))
+            self._insert_linked_diagnosis(con, diagnosis, attempt_id)
+
+    def _insert_linked_diagnosis(self, con, result, attempt_id):
+        con.execute("""INSERT INTO diagnoses
+          (id,attempt_id,original_sentence,has_error,error_types_json,error_span,explanation,corrections_json,review_status,created_at)
+          VALUES (?,?,?,?,?,?,?,?,?,?)""", (result["diagnosis_id"], attempt_id, result["original_sentence"],
+              int(result["has_error"]), json.dumps(result["error_types"], ensure_ascii=False), result.get("error_span"),
+              result["explanation"], json.dumps(result["corrections"], ensure_ascii=False), result["review_status"], now_iso()))
+
+    def recent_summary(self, user_id, limit=10):
+        with closing(self.connect()) as con:
+            rows = con.execute("""SELECT q.category, a.is_correct, a.question_id FROM attempts a
+              JOIN questions q ON q.id=a.question_id WHERE a.user_id=? ORDER BY a.created_at DESC LIMIT ?""",
+              (user_id, limit)).fetchall()
+        return [dict(r) for r in reversed(rows)]
 
     def history(self, user_id, page, page_size, category=None):
         clauses, args = ["a.user_id = ?"], [user_id]
         if category:
             clauses.append("q.category = ?"); args.append(category)
         where = " AND ".join(clauses)
-        with self.connect() as c:
+        with closing(self.connect()) as c, c:
             total = c.execute(f"SELECT COUNT(*) FROM attempts a JOIN questions q ON q.id=a.question_id WHERE {where}", args).fetchone()[0]
             rows = c.execute(f"""SELECT a.*, q.category, d.error_types_json FROM attempts a JOIN questions q ON q.id=a.question_id
               LEFT JOIN diagnoses d ON d.attempt_id=a.id WHERE {where} ORDER BY a.created_at DESC LIMIT ? OFFSET ?""", (*args, page_size, (page-1)*page_size)).fetchall()
         return total, [dict(r) for r in rows]
 
     def profile(self, user_id):
-        with self.connect() as c:
+        with closing(self.connect()) as c, c:
             rows = c.execute("SELECT q.category, a.is_correct FROM attempts a JOIN questions q ON q.id=a.question_id WHERE a.user_id=?", (user_id,)).fetchall()
         stats = {}
         for row in rows:

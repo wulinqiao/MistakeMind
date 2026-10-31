@@ -49,7 +49,7 @@ T = TypeVar("T")
 
 class Meta(BaseModel):
     timestamp: datetime
-    version: str = "v1"
+    version: str = "v1.1"
 
 
 class ApiResponse(BaseModel, Generic[T]):
@@ -98,6 +98,7 @@ class DiagnosisResult(BaseModel):
     hints: list[Hint] = Field(default_factory=list)
     confidence: float = Field(ge=0, le=1)
     review_status: ReviewStatus
+    needs_context: bool = False
     trace: list[dict[str, Any]] = Field(default_factory=list)
 
 
@@ -139,6 +140,8 @@ class AgentContext(BaseModel):
     task: str
     grade: Difficulty | None = None
     sentence: str | None = None
+    optional_context: str | None = None
+    need_hints: bool = True
     student_answer: Any | None = None
     question_id: str | None = None
     history_summary: list[dict[str, Any]] = Field(default_factory=list)
