@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "practice_banks": [
+    {
+      "path": "data/questions.json",
+      "name": "八类病句与正常句候选题",
+      "expected_count": 20,
+      "origin": "项目自编，待人工教学审核"
+    },
+    {
+      "path": "data/external/cs2w_grammar_candidates.json",
+      "name": "CS2W 语法候选补充题",
+      "expected_count": 100,
+      "origin": "CS2W train；仅成分残缺、成分赘余；CC BY-SA 4.0"
+    }
+  ],
+  "evaluation_only": [
+    "data/b_evaluation_candidates.json",
+    "data/b_evaluation_reviewed.json",
+    "data/b_evaluation_reviewed_full.json"
+  ]
+}
