@@ -8,10 +8,17 @@
       "origin": "项目自编，待人工教学审核"
     },
     {
+      "path": "data/school_questions.json",
+      "name": "初高中语文常见题型变式",
+      "expected_count": 44,
+      "origin": "参考中学教学资料，项目 AI 辅助自编；非历年真题，待人工教学审核"
+    }
+  ],
+  "withdrawn_banks": [
+    {
       "path": "data/external/cs2w_grammar_candidates.json",
-      "name": "CS2W 语法候选补充题",
-      "expected_count": 100,
-      "origin": "CS2W train；仅成分残缺、成分赘余；CC BY-SA 4.0"
+      "status": "withdrawn",
+      "reason": "口语转写语料不适合本项目初高中书面语病句练习；仅保留历史来源与转换研究记录，不计入练习候选。"
     }
   ],
   "evaluation_only": [

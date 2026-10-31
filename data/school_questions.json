@@ -1,0 +1,1578 @@
+[
+  {
+    "id": "school_001",
+    "sentence": "在校园科学节开幕式上，校长向全校师生提出了珍惜时间、勤于思考。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "提出了珍惜时间、勤于思考",
+    "references": [
+      {
+        "text": "在校园科学节开幕式上，校长向全校师生提出了珍惜时间、勤于思考的要求。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "缺少宾语中心语。动词“提出”后面的“珍惜时间、勤于思考”说明要求的内容，应在句末补上“的要求”，使“提出要求”的动宾结构完整。",
+    "knowledge_tags": [
+      "宾语中心语残缺",
+      "补充成分"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522412911080.pdf"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_002",
+    "sentence": "通过持续一个月的晨跑训练，使同学们的耐力明显增强。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "通过……使……",
+    "references": [
+      {
+        "text": "通过持续一个月的晨跑训练，同学们的耐力明显增强。"
+      },
+      {
+        "text": "持续一个月的晨跑训练使同学们的耐力明显增强。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“通过”使前半句成为介词短语，“使”又使“同学们的耐力”不能充当全句主语，造成主语残缺。可删去“使”，让“同学们的耐力”作主语；也可删去“通过”，让“晨跑训练”作主语。",
+    "knowledge_tags": [
+      "主语残缺",
+      "介词误用"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://jyj.shannan.gov.cn/xwzx/snjyqk/2020/202403/P020240325573065487018.pdf"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_003",
+    "sentence": "我们班的同学在这次合唱比赛中团结协作的精神。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "在这次合唱比赛中团结协作的精神",
+    "references": [
+      {
+        "text": "我们班的同学在这次合唱比赛中表现出了团结协作的精神。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "缺少谓语。句子的主语是“我们班的同学”，后面的“团结协作的精神”是名词性短语，尚未说明同学们做了什么。补上“表现出了”，使“同学表现精神”的主谓宾结构完整。",
+    "knowledge_tags": [
+      "谓语残缺",
+      "句子主干"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://jyj.shannan.gov.cn/xwzx/snjyqk/2020/202403/P020240325573065487018.pdf"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_004",
+    "sentence": "为了防止学生在体育课上发生意外，学校制定了详细的安全。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "制定了详细的安全",
+    "references": [
+      {
+        "text": "为了防止学生在体育课上发生意外，学校制定了详细的安全措施。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "缺少宾语中心语。“安全”在这里用来修饰具体措施，不能单独构成“制定”的完整宾语；在“安全”后补“措施”，形成“制定措施”。",
+    "knowledge_tags": [
+      "宾语中心语残缺",
+      "补充成分"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://jyj.shannan.gov.cn/xwzx/snjyqk/2020/202403/P020240325573065487018.pdf"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_005",
+    "sentence": "校团委讨论并通过了改善图书角管理、延长课后开放时间。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": "讨论并通过了改善图书角管理、延长课后开放时间",
+    "references": [
+      {
+        "text": "校团委讨论并通过了改善图书角管理、延长课后开放时间的方案。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "缺少宾语中心语。“改善图书角管理、延长课后开放时间”是方案的具体内容，应在后面补“的方案”，使“讨论并通过方案”的结构完整。",
+    "knowledge_tags": [
+      "宾语中心语残缺",
+      "长宾语分析"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522412911080.pdf"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_006",
+    "sentence": "参加本次书法比赛的学生大约有两百人左右。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "大约……左右",
+    "references": [
+      {
+        "text": "参加本次书法比赛的学生大约有两百人。"
+      },
+      {
+        "text": "参加本次书法比赛的学生有两百人左右。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“大约”和“左右”都表示概数，重复使用造成语意赘余。保留其中一个即可，两个参考改法都保留原句的约数含义。",
+    "knowledge_tags": [
+      "概数词重复",
+      "删去赘词"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://www.pep.com.cn/kcs/yjcg/lw/lw2017/201809/t20180926_1931683.html",
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_007",
+    "sentence": "校广播站首次第一次播出了同学们创作的校园广播剧。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "首次第一次",
+    "references": [
+      {
+        "text": "校广播站首次播出了同学们创作的校园广播剧。"
+      },
+      {
+        "text": "校广播站第一次播出了同学们创作的校园广播剧。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“首次”就是“第一次”，连用重复。删去“首次”或“第一次”，均能保留首次播出的原意。",
+    "knowledge_tags": [
+      "同义词重复",
+      "语言简明"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://www.pep.com.cn/kcs/yjcg/lw/lw2017/201809/t20180926_1931683.html",
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_008",
+    "sentence": "整理好采访记录后，班长亲自自己把材料送到了校报编辑室。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "亲自自己",
+    "references": [
+      {
+        "text": "整理好采访记录后，班长亲自把材料送到了校报编辑室。"
+      },
+      {
+        "text": "整理好采访记录后，班长自己把材料送到了校报编辑室。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“亲自”和“自己”在此处都强调由班长本人送材料，连用重复。删除其中一个即可，不改变送材料的人。",
+    "knowledge_tags": [
+      "同义成分重复",
+      "删去赘词"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://www.pep.com.cn/kcs/yjcg/lw/lw2017/201809/t20180926_1931683.html",
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_009",
+    "sentence": "本次阅读打卡活动要求每位同学至少完成十篇以上的读书笔记。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "至少……以上",
+    "references": [
+      {
+        "text": "本次阅读打卡活动要求每位同学至少完成十篇读书笔记。"
+      },
+      {
+        "text": "本次阅读打卡活动要求每位同学完成十篇以上的读书笔记。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“至少”和“以上”在这里都表示数量的下限，语义重复。删去其中一个即可，保留不少于十篇的要求。",
+    "knowledge_tags": [
+      "数量下限重复",
+      "删去赘词"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://www.pep.com.cn/kcs/yjcg/lw/lw2017/201809/t20180926_1931683.html",
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_010",
+    "sentence": "提交研究报告前，小组成员把调查数据一一逐项核实。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": "一一逐项",
+    "references": [
+      {
+        "text": "提交研究报告前，小组成员把调查数据一一核实。"
+      },
+      {
+        "text": "提交研究报告前，小组成员把调查数据逐项核实。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“一一”和“逐项”都表示一项接一项地处理，在这句话中重复。删除其中一个，仍能说明每项数据都经过核实。",
+    "knowledge_tags": [
+      "同义状语重复",
+      "语言简明"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://www.pep.com.cn/kcs/yjcg/lw/lw2017/201809/t20180926_1931683.html",
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_011",
+    "sentence": "经过一学期的训练，校篮球队的配合水平明显增强。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "水平明显增强",
+    "references": [
+      {
+        "text": "经过一学期的训练，校篮球队的配合水平明显提高。"
+      },
+      {
+        "text": "经过一学期的训练，校篮球队的配合能力明显增强。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "主谓搭配不当。“水平”通常用“提高”来说明变化；也可把“水平”改为“能力”，与“增强”搭配。两种改法都保留训练带来进步的原意。",
+    "knowledge_tags": [
+      "主谓搭配",
+      "水平与提高"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://jyj.shannan.gov.cn/xwzx/snjyqk/2020/202403/P020240325573065487018.pdf"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_012",
+    "sentence": "新学期开始，班主任要求我们进一步端正学习目的，改进学习方法。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "端正学习目的",
+    "references": [
+      {
+        "text": "新学期开始，班主任要求我们进一步明确学习目的，改进学习方法。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "动宾搭配不当。“目的”应当“明确”，“态度”才与“端正”搭配。此处保留“学习目的”，把“端正”改为“明确”。",
+    "knowledge_tags": [
+      "动宾搭配",
+      "目的与明确"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://jyj.shannan.gov.cn/xwzx/snjyqk/2020/202403/P020240325573065487018.pdf"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_013",
+    "sentence": "学校为同学们的课外阅读搭建了良好的条件。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "搭建了良好的条件",
+    "references": [
+      {
+        "text": "学校为同学们的课外阅读创造了良好的条件。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "动宾搭配不当。“搭建”通常与“平台”等词搭配，“条件”应与“创造”搭配。保留课外阅读条件得到改善的意思，将“搭建”改为“创造”。",
+    "knowledge_tags": [
+      "动宾搭配",
+      "创造条件"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_014",
+    "sentence": "春季运动会上，同学们发扬了团结协作的作用。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "发扬……作用",
+    "references": [
+      {
+        "text": "春季运动会上，同学们发扬了团结协作的精神。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "动宾搭配不当。“发扬”与“精神”搭配，“作用”通常与“发挥”搭配。按运动会上表现团结协作的语境，将“作用”改为“精神”。",
+    "knowledge_tags": [
+      "动宾搭配",
+      "发扬精神"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://jyj.shannan.gov.cn/xwzx/snjyqk/2020/202403/P020240325573065487018.pdf"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_015",
+    "sentence": "这场关于古建筑保护的报告，给同学们留下了深厚的印象。",
+    "mode": "修改题",
+    "category": "搭配不当",
+    "error_types": [
+      "搭配不当"
+    ],
+    "has_error": true,
+    "error_span": "深厚的印象",
+    "references": [
+      {
+        "text": "这场关于古建筑保护的报告，给同学们留下了深刻的印象。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "修饰语与中心语搭配不当。形容“印象”应使用“深刻”，“深厚”通常修饰感情、友谊或基础等；将“深厚”改为“深刻”。",
+    "knowledge_tags": [
+      "定语与中心语搭配",
+      "深刻的印象"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_016",
+    "sentence": "同学们认真讨论并听取了社区工作人员的介绍。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "讨论并听取",
+    "references": [
+      {
+        "text": "同学们认真听取并讨论了社区工作人员的介绍。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "并列动词的先后顺序不当。应先听取介绍，了解内容后再讨论，所以应交换“讨论”和“听取”的位置。",
+    "knowledge_tags": [
+      "动作先后顺序",
+      "并列动词语序"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://jyj.shannan.gov.cn/xwzx/snjyqk/2020/202403/P020240325573065487018.pdf"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_017",
+    "sentence": "校园志愿服务队要发挥每位队员的充分作用。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "发挥每位队员的充分作用",
+    "references": [
+      {
+        "text": "校园志愿服务队要充分发挥每位队员的作用。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "状语误放到定语位置。“充分”应修饰动词“发挥”，说明发挥的程度，应移到“发挥”前，而不是放在名词“作用”前。",
+    "knowledge_tags": [
+      "状语位置",
+      "修饰语错位"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_018",
+    "sentence": "博物馆展出了两千年前刚出土的青铜器。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "两千年前刚出土",
+    "references": [
+      {
+        "text": "博物馆展出了刚出土的两千年前的青铜器。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "“两千年前”应说明青铜器的年代，放在“刚出土”前会被误读为两千年前出土，与“刚”冲突。调整两层定语的顺序，让“刚出土”说明发现时间，“两千年前的”说明文物年代。",
+    "knowledge_tags": [
+      "多层定语顺序",
+      "修饰范围"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522412911080.pdf"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_019",
+    "sentence": "为了保护刚出土的陶器，工作人员实施并制定了周密的修复方案。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "实施并制定",
+    "references": [
+      {
+        "text": "为了保护刚出土的陶器，工作人员制定并实施了周密的修复方案。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "动作的先后顺序不当。应当先制定修复方案，再按照方案实施，不能把制定方案放在实施之后。",
+    "knowledge_tags": [
+      "动作先后顺序",
+      "制定与实施"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522412911080.pdf"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_020",
+    "sentence": "我们在研究性学习中，要善于分析问题、发现问题和解决问题。",
+    "mode": "修改题",
+    "category": "语序不当",
+    "error_types": [
+      "语序不当"
+    ],
+    "has_error": true,
+    "error_span": "分析问题、发现问题和解决问题",
+    "references": [
+      {
+        "text": "我们在研究性学习中，要善于发现问题、分析问题和解决问题。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "并列短语的顺序不当。一般研究过程先发现问题，再分析问题，最后解决问题，应把“发现问题”移到“分析问题”前。",
+    "knowledge_tags": [
+      "认识过程顺序",
+      "并列短语语序"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://jyj.shannan.gov.cn/xwzx/snjyqk/2020/202403/P020240325573065487018.pdf"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_021",
+    "sentence": "这次器材损坏的原因，是由搬运时碰撞造成的。",
+    "mode": "修改题",
+    "category": "结构混乱",
+    "error_types": [
+      "结构混乱"
+    ],
+    "has_error": true,
+    "error_span": "损坏的原因，是由搬运时碰撞造成的",
+    "references": [
+      {
+        "text": "这次器材损坏是由搬运时碰撞造成的。",
+        "edit": "删去“的原因”，保留“是由……造成的”句式。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“……的原因是……”和“……是由……造成的”混用，使“原因”又被说成了碰撞所造成的对象。删去“的原因”，即可让“器材损坏”与“由搬运时碰撞造成”对应。",
+    "knowledge_tags": [
+      "原因句式杂糅"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://www.wxfls.net/section/65/2461"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_022",
+    "sentence": "这张校园导览图的设计者是出自美术社成员之手。",
+    "mode": "修改题",
+    "category": "结构混乱",
+    "error_types": [
+      "结构混乱"
+    ],
+    "has_error": true,
+    "error_span": "设计者是出自美术社成员之手",
+    "references": [
+      {
+        "text": "这张校园导览图出自美术社成员之手。",
+        "edit": "删去“的设计者是”，保留“导览图出自……之手”。"
+      },
+      {
+        "text": "这张校园导览图的设计者是美术社成员。",
+        "edit": "删去“出自”和“之手”，保留“设计者是……”句式。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "原句混合了“设计者是美术社成员”和“导览图出自美术社成员之手”两种说法。“出自……之手”应说明导览图的创作来源，不能直接接在“设计者是”后面。",
+    "knowledge_tags": [
+      "作者身份与作品来源句式混用"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://www.wxfls.net/section/65/2461"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_023",
+    "sentence": "本次征文活动旨在以激发同学们的写作兴趣为目的。",
+    "mode": "修改题",
+    "category": "结构混乱",
+    "error_types": [
+      "结构混乱"
+    ],
+    "has_error": true,
+    "error_span": "旨在以激发同学们的写作兴趣为目的",
+    "references": [
+      {
+        "text": "本次征文活动旨在激发同学们的写作兴趣。",
+        "edit": "删去“以”和“为目的”，保留“旨在……”句式。"
+      },
+      {
+        "text": "本次征文活动以激发同学们的写作兴趣为目的。",
+        "edit": "删去“旨在”，保留“以……为目的”句式。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "“旨在……”和“以……为目的”是两套表达目的的句式，原句将两者套叠。选择一套完整结构即可，不必改变活动的目的。",
+    "knowledge_tags": [
+      "目的句式杂糅"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://www.wxfls.net/section/65/2461"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_024",
+    "sentence": "志愿服务方案是根据同学们的实际需要为出发点制定的。",
+    "mode": "修改题",
+    "category": "结构混乱",
+    "error_types": [
+      "结构混乱"
+    ],
+    "has_error": true,
+    "error_span": "根据同学们的实际需要为出发点",
+    "references": [
+      {
+        "text": "志愿服务方案是根据同学们的实际需要制定的。",
+        "edit": "删去“为出发点”，保留“根据……”结构。"
+      },
+      {
+        "text": "志愿服务方案是以同学们的实际需要为出发点制定的。",
+        "edit": "将“根据”换成“以”，保留“以……为出发点”结构。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "“根据同学们的实际需要”和“以同学们的实际需要为出发点”都能独立表达依据；“根据……为出发点”将两种结构拼接在了一起。",
+    "knowledge_tags": [
+      "依据句式杂糅"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://www.wxfls.net/section/65/2461"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_025",
+    "sentence": "陈航对许宁说，他的研究报告已经通过审核。",
+    "mode": "修改题",
+    "category": "表意不明",
+    "error_types": [
+      "表意不明"
+    ],
+    "has_error": true,
+    "error_span": "他的研究报告",
+    "references": [
+      {
+        "text": "陈航对许宁说：“我的研究报告已经通过审核。”",
+        "interpretation": "报告属于陈航。"
+      },
+      {
+        "text": "陈航对许宁说：“你的研究报告已经通过审核。”",
+        "interpretation": "报告属于许宁。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "作为独立句，“他”没有唯一明确的指代对象，至少可能指陈航或许宁。两种参考修改分别保留一种原意，应结合语境选择，不能认定报告必定属于其中某个人。",
+    "knowledge_tags": [
+      "代词指代不明"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。",
+      "review_focus": "只按缺少补充语境的独立句作消歧训练；有语境时原句可能明确。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_026",
+    "sentence": "学校请来了三个社团的负责人。",
+    "mode": "修改题",
+    "category": "表意不明",
+    "error_types": [
+      "表意不明"
+    ],
+    "has_error": true,
+    "error_span": "三个社团的负责人",
+    "references": [
+      {
+        "text": "学校请来了来自三个社团的负责人。",
+        "interpretation": "“三”表示社团数量，负责人来自三个社团。",
+        "edit": "加“来自”，使“三个”明确修饰“社团”。"
+      },
+      {
+        "text": "学校请来了三位社团负责人。",
+        "interpretation": "“三”表示受邀负责人的人数。",
+        "edit": "将“三个社团的负责人”改为“三位社团负责人”。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“三个”既可能限定“社团”，也可能限定“社团的负责人”的人数，原句没有明确数量的计算对象。不同改法分别说明社团数量和负责人数量，不擅自补充每个社团有几名负责人。",
+    "knowledge_tags": [
+      "数量修饰范围歧义"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。",
+      "review_focus": "应由教师复核数量短语的两种解读；不要将第一种解读擅改为“三名负责人”。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_027",
+    "sentence": "新来的同学谁都不认识。",
+    "mode": "修改题",
+    "category": "表意不明",
+    "error_types": [
+      "表意不明"
+    ],
+    "has_error": true,
+    "error_span": "新来的同学谁都不认识",
+    "references": [
+      {
+        "text": "新来的同学不认识任何人。",
+        "interpretation": "新来的同学不认识别人。"
+      },
+      {
+        "text": "没有人认识新来的同学。",
+        "interpretation": "别人都不认识新来的同学。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "作为独立句，“新来的同学”既可能是“不认识”的主体，也可能是提前说明的对象。原句没有明确谁不认识谁。两种改法分别明确认识关系的方向，须结合语境选用。",
+    "knowledge_tags": [
+      "施事与受事歧义"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。",
+      "review_focus": "独立句的主客体消歧练习；两种改法分别对应一种原意，不能凭空认定唯一方向。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_028",
+    "sentence": "赵老师看见学生十分高兴。",
+    "mode": "修改题",
+    "category": "表意不明",
+    "error_types": [
+      "表意不明"
+    ],
+    "has_error": true,
+    "error_span": "赵老师看见学生十分高兴",
+    "references": [
+      {
+        "text": "赵老师看见学生，赵老师十分高兴。",
+        "interpretation": "高兴的人是赵老师。",
+        "edit": "在“学生”后断开，并明确后半句主语。"
+      },
+      {
+        "text": "赵老师看见学生十分高兴的样子。",
+        "interpretation": "高兴的人是学生，赵老师看到了这一情景。",
+        "edit": "在句末补“的样子”，明确被看见的是学生的状态。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "“十分高兴”可能陈述赵老师看见学生后的心情，也可能属于“看见”的宾语内容，说明学生的状态。需按作者原意明确情绪主体，不能无依据指定谁高兴。",
+    "knowledge_tags": [
+      "情绪主体歧义"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。",
+      "review_focus": "先确认两种句法读法均可成立，再依补充语境选用改法。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_029",
+    "sentence": "班级图书角购入了小说、散文集和文学书籍。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "小说、散文集和文学书籍",
+    "references": [
+      {
+        "text": "班级图书角购入了小说、散文集等文学书籍。",
+        "edit": "将“和”换成“等”，改为种类与上位概念的列举关系。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“文学书籍”是上位概念，包含小说和散文集，不宜与二者作为同一层级的三类书籍并列。用“等文学书籍”把前两项作为例子，不添加未经说明的新书种。",
+    "knowledge_tags": [
+      "包含关系误作并列"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://pub.bnu.edu.cn/jzyg1/41773.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_030",
+    "sentence": "参加本次朗诵比赛的二十四名选手全部到场，其中两名选手因病缺席。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "全部到场，其中两名选手因病缺席",
+    "references": [
+      {
+        "text": "参加本次朗诵比赛的二十四名选手没有全部到场，其中两名选手因病缺席。",
+        "edit": "在“全部到场”前加“没有”。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "前半句断定二十四名选手全部到场，后半句却明确说其中两名缺席，对同一批选手作出了互相冲突的判断。加“没有”即可使整体情况与缺席说明一致。",
+    "knowledge_tags": [
+      "前后自相矛盾"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://pub.bnu.edu.cn/jzyg1/41773.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_031",
+    "sentence": "图书馆原有阅览座位一百个，扩建后增加到一百二十个，座位数比原来增加了百分之一百二十。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "增加了百分之一百二十",
+    "references": [
+      {
+        "text": "图书馆原有阅览座位一百个，扩建后增加到一百二十个，座位数比原来增加了百分之二十。",
+        "edit": "将“百分之一百二十”换成“百分之二十”。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "“增加了”的比例应以增加量除以原有数量，即（一百二十减一百）除以一百，为百分之二十。百分之一百二十表示扩建后数量是原有数量的比例，不能直接说成增加的比例。",
+    "knowledge_tags": [
+      "增长比例与总量比例混淆"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://pub.bnu.edu.cn/jzyg1/41773.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_032",
+    "sentence": "只调查了一个班的阅读情况，我们就完全掌握了全市初中生的阅读情况。",
+    "mode": "修改题",
+    "category": "不合逻辑",
+    "error_types": [
+      "不合逻辑"
+    ],
+    "has_error": true,
+    "error_span": "只调查了一个班的阅读情况，我们就完全掌握了全市初中生的阅读情况",
+    "references": [
+      {
+        "text": "只调查了一个班的阅读情况，我们还不能完全掌握全市初中生的阅读情况。",
+        "edit": "将“就完全掌握了”换成“还不能完全掌握”。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "调查范围仅为一个班，结论却扩大到全市初中生，并使用“完全”作绝对判断，现有调查不能支持这个结论。修改保留调查范围，同时限制所能得出的结论。",
+    "knowledge_tags": [
+      "以局部调查代替总体判断"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html",
+        "https://pub.bnu.edu.cn/jzyg1/41773.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。",
+      "review_focus": "这是明确限定调查范围与绝对结论的推断题；不使用缺少限定的普通因果句来制造错误。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_033",
+    "sentence": "无论明天刮风还是下雨，所以志愿者都要按时到岗。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "无论明天刮风还是下雨，所以",
+    "references": [
+      {
+        "text": "无论明天刮风还是下雨，志愿者都要按时到岗。",
+        "edit": "删去“所以”，保留“无论……都……”表示不受这些条件影响。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "前半句列举的是尚未确定的不同天气条件，后半句说明到岗要求在这些条件下都不变；这里不是由一个既成原因推出结果。“所以”强接因果关系，应删去。",
+    "knowledge_tags": [
+      "无条件关系误接因果词"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://www.sinolingua.com.cn/uploadfile/2023/1025/20231025061744605.pdf",
+        "https://pub.bnu.edu.cn/jzyg1/41773.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。",
+      "review_focus": "问题是本句关系错接，不主张所有含“无论”和“所以”的复杂句都错误。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_034",
+    "sentence": "这份调查报告不但列出了问卷数据，而是分析了产生差异的原因。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "不但列出了问卷数据，而是",
+    "references": [
+      {
+        "text": "这份调查报告不但列出了问卷数据，而且分析了产生差异的原因。",
+        "edit": "将“而是”换成“而且”。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "列出数据和进一步分析原因是同时存在、后一项更深入的内容，应表达递进。“而是”通常用于否定前项、肯定后项的对照结构，与这里的“不但”不能照应。",
+    "knowledge_tags": [
+      "递进关系误用对照词"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://www.sinolingua.com.cn/uploadfile/2023/1025/20231025061744605.pdf",
+        "https://pub.bnu.edu.cn/jzyg1/41773.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_035",
+    "sentence": "这次讨论的重点不是给同学排名，而且帮助大家找出学习方法上的问题。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "不是给同学排名，而且",
+    "references": [
+      {
+        "text": "这次讨论的重点不是给同学排名，而是帮助大家找出学习方法上的问题。",
+        "edit": "将“而且”换成“而是”。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "前半句否定“给同学排名”是讨论重点，后半句应指出真正的重点，构成“不是……而是……”的否定与肯定对照。“而且”表示追加递进，不能承担这里更正前项的作用。",
+    "knowledge_tags": [
+      "对照关系误用递进词"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://www.sinolingua.com.cn/uploadfile/2023/1025/20231025061744605.pdf",
+        "https://pub.bnu.edu.cn/jzyg1/41773.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_036",
+    "sentence": "与其在没有证据时急于下结论，而且先核实材料。",
+    "mode": "修改题",
+    "category": "关联词使用不当",
+    "error_types": [
+      "关联词使用不当"
+    ],
+    "has_error": true,
+    "error_span": "与其在没有证据时急于下结论，而且",
+    "references": [
+      {
+        "text": "与其在没有证据时急于下结论，不如先核实材料。",
+        "edit": "将“而且”换成“不如”。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "这里是在两种做法中比较取舍，主张先核实材料，应使用“与其……不如……”。“而且”表示再加一项，不能与“与其”组成这一取舍关系。",
+    "knowledge_tags": [
+      "取舍关系误用递进词"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://www.sinolingua.com.cn/uploadfile/2023/1025/20231025061744605.pdf",
+        "https://pub.bnu.edu.cn/jzyg1/41773.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_037",
+    "sentence": "放学后，值日生把教室的门窗关好了。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "放学后，值日生把教室的门窗关好了。",
+        "edit": "无需修改，保留原句。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "时间状语、施事“值日生”、处置对象“门窗”与结果“关好了”对应明确，句子完整，无须修改。",
+    "knowledge_tags": [
+      "正常句",
+      "把字句"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_038",
+    "sentence": "图书管理员把新到的图书按类别摆放在书架上。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "图书管理员把新到的图书按类别摆放在书架上。",
+        "edit": "无需修改，保留原句。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "“图书管理员”是动作主体，“图书”是摆放对象，“按类别”和“在书架上”分别说明方式与位置，搭配自然，无须修改。",
+    "knowledge_tags": [
+      "正常句",
+      "状语与动词搭配"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_039",
+    "sentence": "班长在黑板上写下了本周的值日安排。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "班长在黑板上写下了本周的值日安排。",
+        "edit": "无需修改，保留原句。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "动作主体、书写内容和书写位置明确，“本周的”清楚限定值日安排，句子没有成分或搭配问题，无须修改。",
+    "knowledge_tags": [
+      "正常句",
+      "句子成分完整"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_040",
+    "sentence": "如果周五天气晴朗，我们就到操场上进行接力训练。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "如果周五天气晴朗，我们就到操场上进行接力训练。",
+        "edit": "无需修改，保留原句。"
+      }
+    ],
+    "difficulty": "初中",
+    "explanation": "前半句提出训练计划的条件，后半句说明该条件下的安排，“如果……就……”照应恰当，主语明确，无须修改。",
+    "knowledge_tags": [
+      "正常句",
+      "假设条件关系"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_041",
+    "sentence": "研究小组对采集到的样本进行了分类，并记录了每一类样本的主要特征。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "研究小组对采集到的样本进行了分类，并记录了每一类样本的主要特征。",
+        "edit": "无需修改，保留原句。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "两项动作共用“研究小组”作主语，分类与记录的对象清楚，“并”连接相继开展的工作，结构完整，无须修改。",
+    "knowledge_tags": [
+      "正常句",
+      "共用主语"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_042",
+    "sentence": "这篇文章先介绍调查方法，再分析调查结果，最后提出改进建议。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "这篇文章先介绍调查方法，再分析调查结果，最后提出改进建议。",
+        "edit": "无需修改，保留原句。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "“先、再、最后”清楚标示文章的说明顺序，三个动宾结构并列照应，句意明确，无须修改。",
+    "knowledge_tags": [
+      "正常句",
+      "分句顺序"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_043",
+    "sentence": "无论采用哪一种实验方法，都应如实记录实验过程。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "无论采用哪一种实验方法，都应如实记录实验过程。",
+        "edit": "无需修改，保留原句。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "“哪一种”概括不同实验方法，“无论……都……”说明如实记录的要求不因方法改变。省略的行为主体在整句中一致，无须补出主语或修改关联词。",
+    "knowledge_tags": [
+      "正常句",
+      "无条件关系"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  },
+  {
+    "id": "school_044",
+    "sentence": "为了便于核对，研究人员在表格中注明了数据的来源。",
+    "mode": "修改题",
+    "category": "其他",
+    "error_types": [],
+    "has_error": false,
+    "error_span": null,
+    "references": [
+      {
+        "text": "为了便于核对，研究人员在表格中注明了数据的来源。",
+        "edit": "无需修改，保留原句。"
+      }
+    ],
+    "difficulty": "高中",
+    "explanation": "目的“便于核对”、主体“研究人员”、动作“注明”和宾语“数据的来源”对应清楚，处所状语位置适当，无须修改。",
+    "knowledge_tags": [
+      "正常句",
+      "目的与行为对应"
+    ],
+    "source": "项目 AI 辅助自编中学病句题型变式；非中高考原题，待人工教学审核",
+    "source_metadata": {
+      "source_type": "project_authored_teaching_pattern_variant",
+      "ai_assisted": true,
+      "type_reference_urls": [
+        "https://pub.bnu.edu.cn/jzyg1/41416.html"
+      ],
+      "source_usage": "链接仅为病句类型、语法规则或教学目标的参考，不是本题原句出处；不代表来源机构认可本题。",
+      "training_stage_note": "初中/高中是项目建议训练阶段，不是原卷年级。"
+    },
+    "review_status": "pending",
+    "is_active": false
+  }
+]

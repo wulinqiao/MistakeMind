@@ -1,0 +1,55 @@
+{
+  "checked_date": "2026-10-31",
+  "usage": "仅题型/规则参考；本项目未复制来源整库、未声称这些新题为来源原题或获得机构背书。",
+  "sources": [
+    {
+      "title": "统编语文教材七年级下册的编写思路",
+      "publisher": "人民教育出版社",
+      "url": "https://www.pep.com.cn/kcs/yjcg/lw/lw2017/201809/t20180926_1931683.html",
+      "role": "七下语言简明专题的教学方向；避免重复赘余",
+      "kind": "教材编写说明"
+    },
+    {
+      "title": "普通高中语文课程标准（2017年版2020年修订）",
+      "publisher": "人民教育出版社网站发布",
+      "url": "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522412911080.pdf",
+      "role": "自主修改病句与句子结构分析的教学目标；不是题库",
+      "kind": "课程标准"
+    },
+    {
+      "title": "初中生常见病句类型及解答思路",
+      "publisher": "山南市教育局网站刊载，作者丁娜",
+      "url": "https://jyj.shannan.gov.cn/xwzx/snjyqk/2020/202403/P020240325573065487018.pdf",
+      "role": "初中常见病因与修改方法",
+      "kind": "教研文章"
+    },
+    {
+      "title": "归纳病句类型，提高编校警惕性",
+      "publisher": "北京师范大学出版科学研究院",
+      "url": "https://pub.bnu.edu.cn/jzyg1/41416.html",
+      "role": "语序、搭配、成分、结构、歧义与逻辑的分类依据；编校讲解，不是中高考卷",
+      "kind": "语法分类讲解"
+    },
+    {
+      "title": "“从……中”句不是句式杂糅",
+      "publisher": "无锡外国语学校初中部，作者盛夕武",
+      "url": "https://www.wxfls.net/section/65/2461",
+      "role": "区分主语残缺与句式杂糅，区分语序与逻辑标签",
+      "kind": "初中教师教研"
+    },
+    {
+      "title": "附录六：常用关联词总汇",
+      "publisher": "华语教学出版社",
+      "url": "https://www.sinolingua.com.cn/uploadfile/2023/1025/20231025061744605.pdf",
+      "role": "常见复句关系与关联词搭配；不是中高考原卷",
+      "kind": "关联词教学附录"
+    },
+    {
+      "title": "这十类编校差错你都知道吗？",
+      "publisher": "北京师范大学出版科学研究院",
+      "url": "https://pub.bnu.edu.cn/jzyg1/41773.html",
+      "role": "关联词与常见编校错误的补充参考",
+      "kind": "编校讲解"
+    }
+  ]
+}
