@@ -1,0 +1,27 @@
+CS2W external data and this candidate subset
+License: Creative Commons Attribution-ShareAlike 4.0 International
+SPDX identifier: CC-BY-SA-4.0
+License deed: https://creativecommons.org/licenses/by-sa/4.0/
+Full legal terms: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+Original dataset: CS2W: A Chinese Spoken-to-Written Style Conversion Dataset
+with Multiple Conversion Types
+Authors: Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong
+Publication: EMNLP 2023, pages 3962-3979
+Paper: https://aclanthology.org/2023.emnlp-main.241/
+Source: https://github.com/guozishan/CS2W
+Official data-license notice: https://github.com/guozishan/CS2W#data-license
+Source revision: be6e0519b433cfa9d8388b23308f1380716254fd
+
+Changes by the MistakeMind project:
+- selected a subset of training records and removed exact duplicates;
+- excluded other conversion types and inconsistent edit directions;
+- adapted fields to the MistakeMind candidate-question schema;
+- added provisional Chinese category mappings and source metadata;
+- kept original content and reference strings unchanged.
+
+The adapted data remains under CC BY-SA 4.0. Retain attribution, links to
+the source and license, and this changes notice when sharing it. The dataset
+authors do not endorse MistakeMind or its provisional category mappings.
+This license notice applies to CS2W data and the adapted candidate JSON;
+it does not replace licenses for unrelated project code or other datasets.

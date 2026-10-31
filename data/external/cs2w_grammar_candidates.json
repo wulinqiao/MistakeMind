@@ -1,0 +1,4702 @@
+[
+  {
+    "id": "cs2w_train_000040",
+    "sentence": "因为在乡里面开车速度也不敢太快，也是了就是道路比较狭窄",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "因为在乡里面开车速度也不敢太快，就是道路比较狭窄"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=40, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 40,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000000000011100000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000046",
+    "sentence": "我们当时是坐那个高铁去旅游的",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我们当时是坐高铁去旅游的"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=46, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 46,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000011000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000072",
+    "sentence": "农业我们又可以分为原始农业，还有古代农业，还有近代农业和现代农业",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "农业我们又可以分为原始农业，古代农业，还有近代农业和现代农业"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=72, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 72,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000000000000110000000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000092",
+    "sentence": "学校希望我们那个手工做账的能力有所提高",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "学校希望我们手工做账的能力有所提高"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=92, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 92,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000001100000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000094",
+    "sentence": "那是什么影响了你形成了这种内向的性格呢？",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "那是什么影响了你让你形成了这种内向的性格呢？"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=94, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 94,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000002200000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000098",
+    "sentence": "我在新校区里读那个车辆系",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我在新校区里读车辆系"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=98, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 98,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000011000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000146",
+    "sentence": "我们一般上床也会看看手机啊玩玩",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我们一般上床也会看看手机"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=146, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 146,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000000111",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000184",
+    "sentence": "她们的动作好像都是自己训练过的之前",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "她们的动作好像都是自己训练过的"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=184, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 184,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000000000000011",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000218",
+    "sentence": "他丧尸咬了他以后就不松口了",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "丧尸咬了他以后就不松口了"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=218, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 218,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "1000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000219",
+    "sentence": "你要打一个月游戏，真的很容易猝",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "你要打一个月游戏，真的很容易猝死"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=219, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 219,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000000002",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000252",
+    "sentence": "然后当时我们都困了",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "当时我们都困了"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=252, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 252,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "110000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000262",
+    "sentence": "成龙大哥的电影和电视剧我相信耳熟能详了",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "成龙大哥的电影和电视剧我相信大家耳熟能详了"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=262, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 262,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000000000220000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000314",
+    "sentence": "我看旁边停了一个那个小型轿车",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我看旁边停了一个小型轿车"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=314, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 314,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000000110000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000317",
+    "sentence": "你的学的这个专业也不错，这个专业可以从事教育行业这个专业",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "你学的这个专业也不错，这个专业可以从事教育行业"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=317, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 317,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0100000000000000000000001111",
+      "original_grammatical_error_num": 2,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000320",
+    "sentence": "是华为拍照确实很好看",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "华为拍照确实很好看"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=320, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 320,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "1000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000330",
+    "sentence": "我的手机坏了我买转接头都买不到",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我的手机坏了买转接头都买不到"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=330, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 330,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000100000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000358",
+    "sentence": "有时间可以去找自己的好伙伴，打一下球之类的",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "有时间可以去找自己的好伙伴，打一下球"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=358, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 358,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000000000000111",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000431",
+    "sentence": "然后我小时候去放牛的时候就特喜欢在山上去找石头",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我小时候去放牛的时候就特喜欢在山上去找石头"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=431, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 431,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "11000000000000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000434",
+    "sentence": "北方的茶叶都是由我们南方运过去的",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "北方的茶叶都是由南方运过去的"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=434, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 434,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000011000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000514",
+    "sentence": "那我们玩儿乒乓球的时候有没有要注意的东西",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我们玩儿乒乓球的时候有没有要注意的东西"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=514, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 514,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "10000000000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000535",
+    "sentence": "不知道前面那个车不知道是车速慢了还是他骑快了，然后他就追别人的尾了",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "不知道前面那个车是车速慢了还是他骑快了，然后他就追别人的尾了"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=535, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 535,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000001110000000000000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000570",
+    "sentence": "如果你是开车的话请不，那我就觉得请不要疲劳驾驶和酒后驾驶，",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "如果你是开车的话，那我就觉得请不要疲劳驾驶和酒后驾驶，"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=570, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 570,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000000110000000000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000578",
+    "sentence": "我和我的祖啊我觉得这首歌非常好听",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我觉得这首歌非常好听"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=578, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 578,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "1111110000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000615",
+    "sentence": "我们要学习先人创造的什知识",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我们要学习先人创造的知识"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=615, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 615,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000000100",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000641",
+    "sentence": "你有给你就是男朋友买过衣服吗",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "你有给你男朋友买过衣服吗"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=641, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 641,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00001100000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000647",
+    "sentence": "我们老师也说就是晕血的人肯定是不能去当医生的",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我们老师也说晕血的人肯定是不能去当医生的"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=647, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 647,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000001100000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000789",
+    "sentence": "我现在用的是苹果的因为那款手机",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我现在用的是苹果的那款手机"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=789, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 789,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000110000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000818",
+    "sentence": "高中是很多这个思想品德的形成阶段",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "高中是很多思想品德的形成阶段"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=818, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 818,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000011000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000837",
+    "sentence": "然后后来我就听说他要拍成电视剧了",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "后来我就听说他要拍成电视剧了"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=837, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 837,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "1100000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000840",
+    "sentence": "你知道是女排第一次夺冠什么时候吗具体",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "你知道是女排第一次夺冠什么时候吗"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=840, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 840,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000000000011",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000862",
+    "sentence": "库里的话就是联盟里投篮最准的人",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "库里就是联盟里投篮最准的人"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=862, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 862,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "001100000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000903",
+    "sentence": "所以说整个世界当时世界就是列强争霸嘛",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "所以说整个世界当时就是列强争霸嘛"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=903, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 903,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000110000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_000925",
+    "sentence": "她只是为了完成自己的一种工作",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "她只是为了完成自己的工作"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=925, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 925,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000000001100",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001000",
+    "sentence": "你在买手机会看那些性能啊",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "你买手机会看那些性能啊"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1000, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1000,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "010000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001020",
+    "sentence": "少林寺多次救人于水火之中，都在历史上，影响非常大。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "少林寺多次救人于水火之中，在历史上，影响非常大。"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1020, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1020,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000000000100000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001056",
+    "sentence": "它还要考试是卷的考试",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "它还要考试是开卷的考试"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1056, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1056,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000022000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001065",
+    "sentence": "我们学校之前练体的也很多",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我们学校之前练体育的也很多"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1065, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1065,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000022000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001092",
+    "sentence": "好多人都喜欢乱吐就是泡泡糖",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "好多人都喜欢乱吐泡泡糖"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1092, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1092,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000011000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001096",
+    "sentence": "学校里面好多那个小姐姐长得非常地好看",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "学校里面好多小姐姐长得非常地好看"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1096, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1096,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000110000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001133",
+    "sentence": "但是有很多人接受不了，就是自己喜欢的小动物被吃",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "但是有很多人接受不了，自己喜欢的小动物被吃"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1133, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1133,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000000000110000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001165",
+    "sentence": "如果是学校的话，就会十二点多睡觉",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "如果是在学校的话，我就会十二点多睡觉"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1165, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1165,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0022000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001182",
+    "sentence": "这个老师对学生就是特别的照顾",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "这个老师对学生特别的照顾"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1182, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1182,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000001100000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001219",
+    "sentence": "我不喜欢吃榴莲的",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我不喜欢吃榴莲"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1219, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1219,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000001",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001240",
+    "sentence": "霍去病父亲也一个小吏，一个很小的官职",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "霍去病父亲也只是一个小吏，一个很小的官职"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1240, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1240,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000002200000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001270",
+    "sentence": "我对那种文科类知识真的一窍",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我对那种文科类知识真的一窍不通"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1270, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1270,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000000002",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001284",
+    "sentence": "他下车之后把别人就公交车那玻璃窗给砸了",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "他下车之后把别人公交车那玻璃窗给砸了"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1284, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1284,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000010000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001289",
+    "sentence": "詹姆斯的职业生涯堪称是铁人",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "詹姆斯堪称是铁人"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1289, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1289,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0001111100000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001292",
+    "sentence": "你知道体项目就可以分为哪些种类吗",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "你知道体育项目就可以分为哪些种类吗"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1292, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1292,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0002200000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001321",
+    "sentence": "黑客她就是把她身上的所有私人信息都公开了",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "黑客就是把她身上的所有私人信息都公开了"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1321, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1321,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00100000000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001351",
+    "sentence": "不就是家里不就是不安装个净水器，你都不敢喝水",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "不就是家里不安装个净水器，你都不敢喝水"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1351, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1351,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000011100000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001364",
+    "sentence": "我爸妈他们之前想让学护士",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我爸妈他们之前想让我学护士"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1364, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1364,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000002200",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001400",
+    "sentence": "当时那个警察局来的人抓走了他",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "当时警察局来的人抓走了他"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1400, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1400,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00110000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001415",
+    "sentence": "我觉得这样的品行和行为其实是应该是受社会的谴责的",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我觉得这样的品行和行为应该是受社会的谴责的"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1415, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1415,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000001110000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001473",
+    "sentence": "她是那种比较可爱一点的女士",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "她是比较可爱一点的女士"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1473, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1473,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0011000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001579",
+    "sentence": "这块敲门砖之后，人们才会过多去看你个人能力，以及你真正所学会的东西。",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "这块敲门砖有了之后，人们才会过多去看你个人能力，以及你真正所学会的东西。"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1579, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1579,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000220000000000000000000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001614",
+    "sentence": "我们中国也有一个比较名贵的菜系，你知道什么吗",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我们中国也有一个比较名贵的菜系，你知道是什么吗"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1614, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1614,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000000000000002200",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001632",
+    "sentence": "但我觉得还是不要对他网络暴力的对吧。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "但我觉得还是不要对他网络暴力对吧。"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1632, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1632,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000000001000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001636",
+    "sentence": "熬夜还会导致就是肥胖",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "熬夜还会导致肥胖"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1636, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1636,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000001100",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001642",
+    "sentence": "他可以攻破很多很多就是安全系统的问题",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "他可以攻破很多很多安全系统的问题"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1642, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1642,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000110000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001645",
+    "sentence": "保护生态环境就是你要成为人类社会的共同意义了",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "保护生态环境就是要成为人类社会的共同意义了"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1645, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1645,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000010000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001671",
+    "sentence": "人家打你是为了让你敢长记性",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "人家打你是为了让你长记性"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1671, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1671,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000001000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001700",
+    "sentence": "我把我的英语带过去跟你一起做",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我把我的英语作业带过去跟你一起做"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1700, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1700,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000220000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001750",
+    "sentence": "我家还有就是好多好多蜂蜜",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我家还有好多好多蜂蜜"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1750, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1750,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000011000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001766",
+    "sentence": "她年收入是近个上亿的",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "她年收入是近上亿的"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1766, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1766,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000001000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001816",
+    "sentence": "我当时在座位上那抱着东西困了",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我当时在座位上抱着东西困了"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1816, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1816,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000001000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001909",
+    "sentence": "自从我听到很多熬夜猝死的时候，我就很少熬夜了",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "自从我听到很多熬夜猝死事件的时候，我就很少熬夜了"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1909, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1909,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000000220000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_001934",
+    "sentence": "人家那马拉松要跑三四个小时呢",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "马拉松要跑三四个小时呢"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=1934, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 1934,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "11100000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002005",
+    "sentence": "我就觉得那个一百零八将里面的林冲是最厉害的人",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我就觉得一百零八将里面的林冲是最厉害的人"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2005, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2005,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000110000000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002027",
+    "sentence": "因为有的人，他就东西他就丢那就不要了",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "因为有的人，东西他就丢那就不要了"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2027, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2027,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000110000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002062",
+    "sentence": "但是你不可能每个人的自行车然后都在小区楼下停着",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "但是不可能每个人的自行车都在小区楼下停着"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2062, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2062,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00100000000001100000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002098",
+    "sentence": "因为初中升高中是人们这个思维养成的一个重要时期",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "因为初中升高中是人们思维养成的一个重要时期"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2098, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2098,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000000001100000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002100",
+    "sentence": "但是我小时候我吃臭豆腐，我闻着都不臭",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "但是我小时候吃臭豆腐，我闻着都不臭"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2100, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2100,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000100000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002112",
+    "sentence": "对对他也可能是比较喜欢当老师",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "他也可能是比较喜欢当老师"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2112, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2112,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "11000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002139",
+    "sentence": "他的他其实他的演技特别好",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "他其实演技特别好"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2139, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2139,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "110001100000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002149",
+    "sentence": "我们学校那个衣服好多人穿的衣服都不好看",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我们学校好多人穿的衣服都不好看"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2149, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2149,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000111100000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002151",
+    "sentence": "不管是多久我们中国的历史都依然存在，不论不会被磨灭，只会被弘扬",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "不管是多久我们中国的历史都依然存在，不会被磨灭，只会被弘扬"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2151, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2151,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000000000000001100000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002211",
+    "sentence": "学大学学习跟高中相比来说简直是轻松很多",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "大学学习跟高中相比来说简直是轻松很多"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2211, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2211,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "1000000000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002220",
+    "sentence": "他他但是周新驰演过的搞笑电影还是挺经典的。",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "但是周新驰演过的搞笑电影还是挺经典的。"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2220, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2220,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "110000000000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002283",
+    "sentence": "她爸爸妈妈带着我们去那个温泉",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "她爸爸妈妈带着我们去温泉"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2283, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2283,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000000001100",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002321",
+    "sentence": "芭蕾舞那个演员走在路上是一只白天鹅",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "芭蕾舞演员走在路上是一只白天鹅"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2321, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2321,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00011000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002380",
+    "sentence": "在小公园的时候，小公园有个坡，有个妈妈推着婴儿车，然后那婴儿车就溜出去了，溜下去就溜到马路上了，有个车开的快婴儿车撞飞了",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "在小公园的时候，小公园有个坡，有个妈妈推着婴儿车，然后那婴儿车就溜出去了，溜下去就溜到马路上了，有个车开的快婴儿车被撞飞了"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2380, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2380,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000000000000000000000000000000000000000000000002200000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002417",
+    "sentence": "我认为学习还是我们生命中的一部分",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我认为学习是我们生命中的一部分"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2417, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2417,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000010000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002424",
+    "sentence": "想要成为一个行业里面的精首先你需要足够努力",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "想要成为一个行业里面的精英首先你需要足够努力"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2424, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2424,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000002200000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002475",
+    "sentence": "我比较推荐的是有一个重庆鸡公煲",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我比较推荐的是重庆鸡公煲"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2475, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2475,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000011100000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002495",
+    "sentence": "他们知道手中可以左右队友命运的权利",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "他们知道手中拥有可以左右队友命运的权利"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2495, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2495,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000220000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002536",
+    "sentence": "像女老师根本就不会去注意你这些行为",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "女老师根本就不会去注意你这些行为"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2536, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2536,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "10000000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002586",
+    "sentence": "我们还有一个那种主题餐厅在西餐的二层",
+    "mode": "修改题",
+    "category": "成分赘余",
+    "error_types": [
+      "成分赘余"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我们还有一个主题餐厅在西餐的二层"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语赘余，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分赘余"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2586, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2586,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000110000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002890",
+    "sentence": "前两天有一个很火的电影看过吗",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "前两天有一个很火的电影你看过吗"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2890, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2890,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000000002200",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_002933",
+    "sentence": "你选机构化学不会太低的分",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "你选机构化学不会得到太低的分"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=2933, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 2933,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000022000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_003608",
+    "sentence": "她，跳舞的时候真的很美一个专业的舞者",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "她，跳舞的时候真的很美，是一个专业的舞者"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=3608, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 3608,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000002200000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_003762",
+    "sentence": "真正重要的让孩子健康的自由的，高高兴兴的，就好了",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "真正重要的是让孩子健康的自由的，高高兴兴的，就好了"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=3762, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 3762,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000022000000000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_003787",
+    "sentence": "然后，探案二我还没有看，好像是会员，然后我就没有看",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "然后，探案二我还没有看，好像是需要会员，然后我就没有看"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=3787, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 3787,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000000000022000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_003878",
+    "sentence": "你们体育还打乒乓球呀",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "你们体育生还打乒乓球呀"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=3878, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 3878,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0002200000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_004115",
+    "sentence": "我对情感很看重的所以我找就很慎重",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我对情感很看重的所以我找伴侣就很慎重"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=4115, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 4115,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0000000000022000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_004418",
+    "sentence": "体育运动可以作为在人们闲暇时间自由的自愿的去做的",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "体育运动可以作为在人们闲暇时间自由的自愿的去做的活动"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=4418, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 4418,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000000000000000002",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_004507",
+    "sentence": "那我觉得还是最后统一的比较厉害一点",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "那我觉得还是最后统一国家的人的比较厉害一点"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=4507, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 4507,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000000002200000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_004521",
+    "sentence": "我们班原来挺好的一个班级",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "我们班原来是挺好的一个班级"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=4521, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 4521,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000022000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_004651",
+    "sentence": "有次去朋友家做客，我就觉得他爸做的好好吃呀",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "有次去朋友家做客，我就觉得他爸做的饭菜好好吃呀"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=4651, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 4651,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "000000000000000022000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_004659",
+    "sentence": "以前小学八点钟就睡了",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "以前我在小学的时候八点钟就睡了。"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=4659, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 4659,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "0220000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  },
+  {
+    "id": "cs2w_train_005007",
+    "sentence": "他们其实刚开始入大学的时候就做了很多计划",
+    "mode": "修改题",
+    "category": "成分残缺",
+    "error_types": [
+      "成分残缺"
+    ],
+    "has_error": true,
+    "error_span": null,
+    "references": [
+      {
+        "text": "他们其实刚开始进入大学的时候就做了很多计划"
+      }
+    ],
+    "difficulty": "综合",
+    "explanation": "CS2W 原始语料将此口语句标为词语缺失，参考改写直接保留自原始 ref。课程类别为暂定映射，尚待本组人工教学审核；不代表原句在所有口语语境中均不可接受。",
+    "knowledge_tags": [
+      "外部语料候选",
+      "口语转书面",
+      "成分残缺"
+    ],
+    "source": "CS2W (EMNLP 2023), train, original id=5007, CC BY-SA 4.0",
+    "review_status": "pending",
+    "is_active": false,
+    "source_metadata": {
+      "dataset": "CS2W",
+      "source_id": 5007,
+      "source_split": "train",
+      "source_revision": "be6e0519b433cfa9d8388b23308f1380716254fd",
+      "source_file": "data/train.jsonl",
+      "source_url": "https://raw.githubusercontent.com/guozishan/CS2W/be6e0519b433cfa9d8388b23308f1380716254fd/data/train.jsonl",
+      "source_sha256": "acf249f7e8077337fc8e4029e7c381e117f3bc780fef48c820e4f328e78f563a",
+      "source_git_blob": "2cb49b442e1bd225c0a00f241772fb57d671c075",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "attribution": "Zishan Guo, Linhao Yu, Minghui Xu, Renren Jin, Deyi Xiong (EMNLP 2023)",
+      "original_grammatical_error_label": "00000022000000000000",
+      "original_grammatical_error_num": 1,
+      "original_disfluency_num": 0,
+      "original_colloquial_word_num": 0,
+      "original_asr_error_num": 0,
+      "category_mapping_status": "provisional",
+      "annotation_origin": "external_corpus",
+      "adaptation": "筛选、去重和字段转换；原文及参考改写未改动；未经过本组人工教学审核"
+    }
+  }
+]
