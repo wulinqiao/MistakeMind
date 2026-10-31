@@ -4,7 +4,9 @@
 
 ## 题库在哪里
 
-练习候选题共有 **120 道**：原有 [20 道八类/正常句候选](data/questions.json)，新增 [100 道 CS2W 语法候选补充](data/external/cs2w_grammar_candidates.json)。请从 [题库总目录](data/README.md) 查看数量、来源与审核状态。它们目前仍待项目教学审核；B 模块评测数据与练习题库分开保存。
+练习候选题共有 **64 道**：原有 [20 道八类/正常句候选](data/questions.json)，另有 [44 道初高中语文常见题型变式](data/school_questions.json)。可直接阅读 [44 题完整预览（含改法与解析）](data/SCHOOL_QUESTIONS_PREVIEW.md)，或从 [题库总目录](data/README.md) 查看数量、来源与审核状态。
+
+新题采用校园、阅读、研究与文化活动等书面语场景，参考公开教学资料后由项目 AI 辅助自编，**不是历年中高考原题**，仍待人工教学审核。此前的 100 道 CS2W 口语转写候选因不符合教学场景，已撤出练习目录，不计入上述数量。
 
 运行 `python -m scripts.list_question_banks` 可校验并查看全部练习候选题数量。
 
