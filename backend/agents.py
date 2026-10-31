@@ -2,11 +2,17 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import time
 import uuid
 from typing import Any
 
+import httpx
+from dotenv import load_dotenv
+
 from schemas.models import Category, Correction, DiagnosisResult, Hint, ReviewStatus
+
+load_dotenv()
 
 
 class ModelTimeout(Exception): pass
@@ -30,9 +36,63 @@ def mock_diagnose(sentence: str, need_hints: bool = True) -> DiagnosisResult:
 
 
 def diagnose(sentence: str, need_hints: bool = True) -> DiagnosisResult:
-    # The adapter is deliberately provider-agnostic. A configured provider can return the same JSON shape.
+    # Keep local demos deterministic when no provider is configured.
     if not os.getenv("LLM_API_KEY"):
         return mock_diagnose(sentence, need_hints)
-    # Keep network integration optional for local demos; callers can replace this function with an adapter.
-    return mock_diagnose(sentence, need_hints)
+
+    started = time.perf_counter()
+    base_url = os.getenv("LLM_BASE_URL", "https://api.deepseek.com").rstrip("/")
+    model = os.getenv("LLM_MODEL", "deepseek-chat")
+    try:
+        timeout = float(os.getenv("LLM_TIMEOUT_SECONDS", "20"))
+        response = httpx.post(
+            f"{base_url}/chat/completions",
+            headers={
+                "Authorization": f"Bearer {os.environ['LLM_API_KEY']}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "model": model,
+                "temperature": 0,
+                "response_format": {"type": "json_object"},
+                "messages": [
+                    {
+                        "role": "system",
+                        "content": (
+                            "你是中文病句诊断器。只返回 JSON，不要 Markdown。"
+                            "JSON 必须包含 original_sentence, has_error, error_types, error_span, "
+                            "explanation, corrections, hints, confidence, review_status。"
+                            "error_types 只能使用：成分残缺、成分赘余、搭配不当、语序不当、结构混乱、表意不明、"
+                            "不合逻辑、关联词使用不当、其他。"
+                            "corrections 是包含 text、kind、reason 的数组；hints 是包含 level(1-3)、text 的数组；"
+                            "review_status 使用 passed、needs_review 或 failed。"
+                        ),
+                    },
+                    {
+                        "role": "user",
+                        "content": json.dumps(
+                            {"sentence": sentence, "need_hints": need_hints}, ensure_ascii=False
+                        ),
+                    },
+                ],
+            },
+            timeout=timeout,
+        )
+        response.raise_for_status()
+    except httpx.TimeoutException as exc:
+        raise ModelTimeout() from exc
+    except (httpx.HTTPError, KeyError, TypeError, ValueError) as exc:
+        raise ModelInvalidJSON() from exc
+
+    try:
+        content = response.json()["choices"][0]["message"]["content"]
+        content = re.sub(r"^```(?:json)?\s*|\s*```$", "", content.strip(), flags=re.IGNORECASE)
+        payload = json.loads(content)
+        payload["diagnosis_id"] = payload.get("diagnosis_id", f"diag_{uuid.uuid4().hex[:12]}")
+        payload["original_sentence"] = sentence
+        payload["hints"] = payload.get("hints", []) if need_hints else []
+        payload["trace"] = [_trace("diagnosis_agent", "llm_call", "success", started)]
+        return DiagnosisResult.model_validate(payload)
+    except (json.JSONDecodeError, KeyError, TypeError, ValueError) as exc:
+        raise ModelInvalidJSON() from exc
 

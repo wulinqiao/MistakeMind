@@ -28,7 +28,7 @@ curl 'http://localhost:8000/api/history/user_001'
 curl 'http://localhost:8000/api/profile/user_001'
 ```
 
-未配置 `LLM_API_KEY` 时诊断使用确定性 Mock，便于前后端联调；配置 OpenAI 兼容服务的密钥和地址后，可替换 `backend/agents.py` 中的适配器实现。模型超时、非法 JSON 和低置信度分别映射到统一错误/复核状态，不会把原始模型响应返回给前端。
+未配置 `LLM_API_KEY` 时诊断使用确定性 Mock，便于前后端联调；配置 DeepSeek 或其他 OpenAI 兼容服务的密钥和地址后，诊断会请求 `/chat/completions` 并校验结构化 JSON。模型超时、HTTP 错误和非法 JSON 分别映射到统一错误，不会把原始模型响应返回给前端。
 
 ## 错误码
 
