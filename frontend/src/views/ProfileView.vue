@@ -1,9 +1,12 @@
 <script setup>
-import { computed, onMounted, ref } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { fetchProfile } from '../api'
 import { USER_ID, messageForError } from '../constants'
+import { attemptRevision } from '../refreshSignal'
 import ErrorAlert from '../components/ErrorAlert.vue'
+
+defineOptions({ name: 'ProfileView' })
 
 const router = useRouter()
 const profile = ref(null)
@@ -47,6 +50,7 @@ function practiceCategory(category) {
 }
 
 onMounted(load)
+watch(attemptRevision, load)
 </script>
 
 <template>
@@ -55,10 +59,6 @@ onMounted(load)
       <h1 class="neu-section-title">学习画像</h1>
       <p class="neu-copy">{{ profile?.description || '根据近期练习记录推荐复习方向。' }}</p>
     </header>
-
-    <div class="neu-actions">
-      <button class="neu-btn" type="button" :disabled="loading" @click="load">刷新画像</button>
-    </div>
 
     <ErrorAlert v-if="errorMessage" :code="errorCode" :message="errorMessage" />
     <p v-if="loading" class="neu-copy">加载中…</p>

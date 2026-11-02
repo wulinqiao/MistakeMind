@@ -12,7 +12,7 @@ export const CATEGORIES = [
   '其他',
 ]
 
-export const DIFFICULTIES = ['小学高年级', '初中', '高中', '综合']
+export const DIFFICULTIES = ['初中', '高中']
 
 export const PRACTICE_MODES = ['判断题', '选择题', '修改题']
 

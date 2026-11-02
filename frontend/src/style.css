@@ -488,3 +488,159 @@ p {
 .neu-table th, .neu-table td { padding: 12px 8px; border-bottom: 1px solid #bbc4d1; }
 details > summary { cursor: pointer; padding: 12px 0; }
 details ol { padding-left: 24px; overflow-wrap: anywhere; }
+
+.practice-shell {
+  display: grid;
+  gap: 24px;
+  align-items: start;
+}
+
+.practice-sidebar {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.practice-side-box {
+  display: grid;
+  place-items: center;
+  min-height: 72px;
+  padding: 16px;
+  text-align: center;
+  font-weight: 600;
+  color: var(--neu-text-muted);
+  background: var(--neu-bg);
+  border-radius: var(--neu-radius);
+  box-shadow: 4px 4px 8px var(--neu-shadow-dark), -4px -4px 8px var(--neu-shadow-light);
+  transition: box-shadow var(--neu-duration) var(--neu-ease), color var(--neu-duration) var(--neu-ease);
+}
+
+.practice-side-box:hover {
+  box-shadow: 3px 3px 6px var(--neu-shadow-dark-soft), -3px -3px 6px var(--neu-shadow-light);
+}
+
+.practice-side-box.is-active {
+  color: var(--neu-accent);
+  box-shadow: inset 4px 4px 8px var(--neu-shadow-dark), inset -4px -4px 8px var(--neu-shadow-light);
+}
+
+.practice-panel {
+  min-width: 0;
+}
+
+.bank-results {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 16px;
+}
+
+.bank-results__list {
+  height: 28rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  align-content: start;
+  padding-right: 2px;
+  scrollbar-gutter: stable;
+}
+
+.bank-results__pager {
+  flex-wrap: nowrap;
+  min-height: 44px;
+}
+
+.bank-question {
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  appearance: none;
+  border: 0;
+  font: inherit;
+  color: inherit;
+}
+
+.bank-question strong {
+  color: var(--neu-text-title);
+  font-weight: 600;
+  line-height: 1.6;
+}
+
+.question-header {
+  display: grid;
+  gap: 16px;
+  align-items: start;
+}
+
+.question-header-text {
+  display: grid;
+  gap: 8px;
+}
+
+.question-header-text .neu-section-title {
+  margin-bottom: 0;
+}
+
+.question-header-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hint-trigger {
+  appearance: none;
+  border: 0;
+  width: max-content;
+  max-width: 100%;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border-radius: var(--neu-radius-sm);
+  background: transparent;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color var(--neu-duration) var(--neu-ease), opacity var(--neu-duration) var(--neu-ease);
+}
+
+.hint-trigger.is-locked {
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.hint-trigger.is-ready {
+  color: var(--neu-text-title);
+}
+
+.hint-trigger:disabled.is-ready {
+  cursor: default;
+  opacity: 0.75;
+}
+
+.hint-countdown,
+.hint-meta {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: inherit;
+}
+
+.home-recommend-marquee .bank-question {
+  width: 100%;
+}
+
+@media (min-width: 900px) {
+  .practice-shell {
+    grid-template-columns: 160px minmax(0, 1fr);
+    gap: 32px;
+  }
+
+  .practice-sidebar {
+    grid-template-columns: 1fr;
+    position: sticky;
+    top: 24px;
+  }
+
+  .question-header {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: start;
+  }
+}

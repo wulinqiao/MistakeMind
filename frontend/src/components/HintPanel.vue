@@ -8,6 +8,18 @@ const props = defineProps({
     type: Array,
     default: () => [],
   },
+  unlocked: {
+    type: Boolean,
+    default: true,
+  },
+  countdown: {
+    type: Number,
+    default: null,
+  },
+  maxReveals: {
+    type: Number,
+    default: 3,
+  },
 })
 
 const ordered = computed(() =>
@@ -22,20 +34,39 @@ const texts = computed(() =>
   ordered.value.map((item) => (typeof item === 'string' ? item : item.text)).filter(Boolean),
 )
 
+const revealLimit = computed(() => Math.min(props.maxReveals, texts.value.length))
+const canReveal = computed(() => props.unlocked && level.value < revealLimit.value)
+const revealed = computed(() => texts.value.slice(0, level.value))
+
 function reveal() {
-  if (level.value < texts.value.length) level.value += 1
+  if (!canReveal.value) return
+  level.value += 1
 }
 </script>
 
 <template>
-  <section v-if="texts.length" class="neu-stack">
-    <div class="neu-actions">
-      <button class="neu-btn" type="button" :disabled="level >= texts.length" @click="reveal">
-        {{ level === 0 ? '查看提示' : '下一级提示' }}
-      </button>
-    </div>
-    <p v-if="level > 0" class="neu-well neu-hint-text">
-      第 {{ level }} 级：{{ texts[level - 1] }}
+  <section class="neu-stack" style="gap: 12px">
+    <button
+      type="button"
+      class="hint-trigger"
+      :class="{ 'is-locked': !unlocked, 'is-ready': unlocked }"
+      :disabled="!canReveal"
+      @click="reveal"
+    >
+      <span>分层提示</span>
+      <span v-if="countdown != null" class="hint-countdown">{{ countdown }}s</span>
+      <span v-else-if="unlocked && level < revealLimit" class="hint-meta">
+        还可点 {{ revealLimit - level }} 次
+      </span>
+      <span v-else-if="unlocked" class="hint-meta">已展开</span>
+    </button>
+
+    <p
+      v-for="(text, index) in revealed"
+      :key="index"
+      class="neu-well neu-hint-text"
+    >
+      第 {{ index + 1 }} 级：{{ text }}
     </p>
   </section>
 </template>

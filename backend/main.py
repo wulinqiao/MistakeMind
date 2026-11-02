@@ -182,8 +182,12 @@ if (DIST / "index.html").exists():
 
     @app.get("/", include_in_schema=False)
     @app.get("/{page}", include_in_schema=False)
-    def frontend_page(request: Request, page: str = ""):
-        if page not in {"", "practice", "diagnose", "history", "profile"}:
-            return envelope(request.state.request_id, error=ErrorBody(code="NOT_FOUND", message="页面不存在"), status=404)
-        return FileResponse(DIST / "index.html")
+    @app.get("/practice/{sub}", include_in_schema=False)
+    def frontend_page(request: Request, page: str = "", sub: str = ""):
+        path = request.url.path.strip("/")
+        allowed = {"", "practice", "diagnose", "history", "profile"}
+        # Nested practice routes (e.g. /practice/question) share the SPA shell.
+        if path in allowed or path.startswith("practice/"):
+            return FileResponse(DIST / "index.html")
+        return envelope(request.state.request_id, error=ErrorBody(code="NOT_FOUND", message="页面不存在"), status=404)
 

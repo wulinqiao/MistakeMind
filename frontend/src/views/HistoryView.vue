@@ -1,9 +1,12 @@
 <script setup>
-import { computed, ref, watch } from 'vue'
+import { computed, onActivated, ref, watch } from 'vue'
 import { fetchHistory } from '../api'
 import { CATEGORIES, USER_ID, messageForError } from '../constants'
+import { attemptRevision } from '../refreshSignal'
 import ErrorAlert from '../components/ErrorAlert.vue'
 import DiagnosisCard from '../components/DiagnosisCard.vue'
+
+defineOptions({ name: 'HistoryView' })
 
 const filters = ['全部', ...CATEGORIES]
 const current = ref('全部')
@@ -47,15 +50,16 @@ function selectCategory(category) {
   page.value = 1
 }
 
-watch([current, page], load, { immediate: true })
+watch([current, page], load)
 watch(wrongOnly, () => { if (page.value !== 1) page.value = 1; else load() })
+watch(attemptRevision, load)
+onActivated(load)
 </script>
 
 <template>
   <div class="neu-stack">
     <header class="neu-stack">
       <h1 class="neu-section-title">历史记录</h1>
-      <p class="neu-copy">按病句类型筛选作答记录，数据来自后端历史接口。</p>
     </header>
     <label class="neu-copy"><input v-model="wrongOnly" type="checkbox" /> 只看错题</label>
 
@@ -92,7 +96,7 @@ watch(wrongOnly, () => { if (page.value !== 1) page.value = 1; else load() })
           <summary>查看本次解析</summary>
           <DiagnosisCard :diagnosis="item.diagnosis" />
         </details>
-        <RouterLink class="neu-btn" :to="{ path: '/practice', query: { question_id: item.question_id } }">再练此题</RouterLink>
+        <RouterLink class="neu-btn" :to="{ path: '/practice/question', query: { question_id: item.question_id } }">再练此题</RouterLink>
       </article>
       <p v-if="!items.length" class="neu-copy">暂无记录。可先去答题或诊断创建用户。</p>
     </div>
