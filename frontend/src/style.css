@@ -585,6 +585,13 @@ details ol { padding-left: 24px; overflow-wrap: anywhere; }
   gap: 12px;
 }
 
+.hint-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 16px;
+}
+
 .hint-trigger {
   appearance: none;
   border: 0;
@@ -604,16 +611,20 @@ details ol { padding-left: 24px; overflow-wrap: anywhere; }
 
 .hint-trigger.is-locked {
   color: #9ca3af;
-  cursor: not-allowed;
+  cursor: default;
+  pointer-events: none;
 }
 
 .hint-trigger.is-ready {
   color: var(--neu-text-title);
+  cursor: pointer;
+  pointer-events: auto;
 }
 
 .hint-trigger:disabled.is-ready {
   cursor: default;
   opacity: 0.75;
+  pointer-events: none;
 }
 
 .hint-countdown,

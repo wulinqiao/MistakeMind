@@ -311,6 +311,14 @@ async function submit() {
       attempt_number: attemptNumber.value,
     })
     diagnosis.value = result.value.diagnosis || null
+    clearHintTimers()
+    hintsUnlocked.value = true
+    hintCountdown.value = null
+    hintUnlockAt.value = null
+    const diagnosisHints = diagnosis.value?.hints
+    if (Array.isArray(diagnosisHints) && diagnosisHints.length && !hints.value.length) {
+      hints.value = diagnosisHints
+    }
     persistDraft()
     notifyAttemptSaved()
   } catch (err) {
@@ -398,12 +406,10 @@ onBeforeUnmount(clearHintTimers)
       <HintPanel
         v-model:level="hintLevel"
         :hints="hints"
-        :unlocked="hintsUnlocked && hints.length > 0"
+        :unlocked="hintsUnlocked || !!result"
         :countdown="hintCountdown"
+        :loading="hintsLoading"
       />
-      <p v-if="hintsUnlocked && !hints.length && !hintsLoading" class="neu-kicker">
-        暂无分层提示，可直接作答。
-      </p>
 
       <section v-if="result" class="neu-stack" style="gap: 16px">
         <article class="neu-card">
