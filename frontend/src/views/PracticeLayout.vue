@@ -58,7 +58,7 @@ const questionLink = computed(() => {
 
 <template>
   <div class="practice-shell">
-    <aside class="practice-sidebar" aria-label="答题侧栏">
+    <aside class="practice-sidebar" aria-label="练习侧栏">
       <RouterLink
         class="practice-side-box"
         :class="{ 'is-active': route.path === '/practice' }"
@@ -71,7 +71,7 @@ const questionLink = computed(() => {
         :class="{ 'is-active': route.path.startsWith('/practice/question') }"
         :to="questionLink"
       >
-        题目
+        答题
       </RouterLink>
     </aside>
     <div class="practice-panel">
