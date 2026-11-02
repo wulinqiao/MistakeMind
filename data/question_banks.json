@@ -5,13 +5,15 @@
       "path": "data/questions.json",
       "name": "八类病句与正常句候选题",
       "expected_count": 20,
-      "origin": "项目自编，待人工教学审核"
+      "origin": "项目自编，待人工教学审核",
+      "reviewed_path": "data/questions.reviewed.json"
     },
     {
       "path": "data/school_questions.json",
       "name": "初高中语文常见题型变式",
       "expected_count": 44,
-      "origin": "参考中学教学资料，项目 AI 辅助自编；非历年真题，待人工教学审核"
+      "origin": "参考中学教学资料，项目 AI 辅助自编；非历年真题，待人工教学审核",
+      "reviewed_path": "data/school_questions.reviewed.json"
     }
   ],
   "withdrawn_banks": [
@@ -25,5 +27,10 @@
     "data/b_evaluation_candidates.json",
     "data/b_evaluation_reviewed.json",
     "data/b_evaluation_reviewed_full.json"
-  ]
+  ],
+  "approval": {
+    "reviewer": "项目用户（本次聊天明确确认）",
+    "reviewed_at": "2026-11-02T12:47:27.324707+08:00",
+    "notes": "用户于本次聊天明确表示“确认审核通过所有题目”，统一批准当前练习目录的64条内容。此记录依据用户确认，不声称新增教师逐题复审。"
+  }
 }

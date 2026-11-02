@@ -1,4 +1,8 @@
-# 题库入口：64 道练习候选题
+# 题库入口：64 条已确认通过的练习内容
+
+2026-11-02，用户在聊天中明确确认“审核通过所有题目”。已据此导出并启用 [20 条原有内容](questions.reviewed.json) 和 [44 条学校场景内容](school_questions.reviewed.json)，导入正式数据库；每条提供判断、分类选择、修改三种形式，共 192 条练习记录，仍是 64 个不同句子。审核依据为用户本次统一确认，不声称新增教师逐题复审。
+
+原始候选和下方原始状态说明保留作来源档案；网页使用已审核导出文件。审核人、时间和确认依据逐条记录在 reviewed 文件及 ../docs/review_forms/*.approved_20261102.json 中。
 
 当前练习目录采用普通初高中语文书面语场景。先看 [44 道新题完整预览](SCHOOL_QUESTIONS_PREVIEW.md)：逐题包含病句、类别、参考修改与解释，无须阅读 JSON。
 
@@ -36,10 +40,10 @@ python -m scripts.validate_c_questions data/school_questions.json
 逐题复核病因、改法、原意及难度。表意不明题提供两种解释，应结合作者意图消歧，不能只接受其中一种。通过后才可设 `review_status="approved"` 和 `is_active=true`。
 
 ```powershell
-python -m scripts.import_c_questions data/school_questions.json --dry-run
+python -m scripts.import_c_questions data/school_questions.reviewed.json --all-modes --dry-run
 ```
 
-当前全部待审核，因此应显示 **0 道可导入**。网页读取数据库中的已启用题目，仓库候选数量与网页可练题数不同。
+原始候选文件依然不会直接导入；已审核导出文件可导入。重新部署时执行 `python -m scripts.import_c_questions data/questions.reviewed.json --all-modes` 和 `python -m scripts.import_c_questions data/school_questions.reviewed.json --all-modes`，导入到配置对应的数据库。网页题型记录数与不同句子数分别为 192 和 64。
 
 ## 评测数据
 

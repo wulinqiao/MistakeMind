@@ -17,7 +17,8 @@ def inventory(catalog_path: str | Path = DEFAULT_CATALOG) -> list[dict]:
     ids: set[str] = set()
     sentences: set[str] = set()
     for bank in catalog["practice_banks"]:
-        rows = load_questions(ROOT / bank["path"])
+        active_path = bank.get("reviewed_path", bank["path"])
+        rows = load_questions(ROOT / active_path)
         if len(rows) != bank["expected_count"]:
             raise ValueError(f"{bank['path']}: 题目数与目录声明不一致")
         for row in rows:
@@ -29,6 +30,7 @@ def inventory(catalog_path: str | Path = DEFAULT_CATALOG) -> list[dict]:
             sentences.add(row["sentence"])
         entries.append({
             "path": bank["path"], "name": bank["name"], "count": len(rows),
+            "active_path": active_path,
             "pending": sum(q["review_status"] == "pending" for q in rows),
             "approved_active": sum(q["review_status"] == "approved" and q["is_active"] for q in rows),
         })
@@ -45,7 +47,7 @@ def main() -> int:
         print(f"题库目录校验失败: {exc}")
         return 1
     for item in entries:
-        print(f"{item['path']}: {item['count']} 道；待审核 {item['pending']}；已审核启用 {item['approved_active']}")
+        print(f"{item['active_path']}: {item['count']} 道；待审核 {item['pending']}；已审核启用 {item['approved_active']}")
     print(f"合计 {sum(item['count'] for item in entries)} 道练习候选题；评测专用文件不计入练习题库。")
     return 0
 

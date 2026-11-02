@@ -17,11 +17,14 @@ defineProps({
 <template>
   <article class="neu-card">
     <h3>诊断结果</h3>
+    <p v-if="diagnosis.needs_context || diagnosis.review_status === 'needs_review'" role="status" class="neu-result-block">
+      需要补充上下文或人工复核。以下为暂定分析，请勿作为已确认结论。
+    </p>
     <p v-if="diagnosis.original_sentence" class="neu-result-block">
       原句：{{ diagnosis.original_sentence }}
     </p>
     <p class="neu-result-block">
-      {{ diagnosis.has_error ? '判定：存在语病' : '判定：不是病句' }}
+      {{ diagnosis.needs_context || diagnosis.review_status === 'needs_review' ? '判定：暂无法确认' : diagnosis.has_error ? '判定：存在语病' : '判定：不是病句' }}
     </p>
     <p v-if="diagnosis.error_types?.length" class="neu-result-block">
       病句类型：{{ diagnosis.error_types.join('、') }}
@@ -56,5 +59,9 @@ defineProps({
     <p v-else-if="diagnosis.review_status" class="neu-kicker">
       复核：{{ diagnosis.review_status }}
     </p>
+    <details v-if="diagnosis.trace?.length">
+      <summary>诊断执行过程</summary>
+      <ol><li v-for="(step, index) in diagnosis.trace" :key="index">{{ step.agent }} · {{ step.action }} · {{ step.status }}</li></ol>
+    </details>
   </article>
 </template>

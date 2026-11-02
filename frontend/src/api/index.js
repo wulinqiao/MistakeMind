@@ -1,11 +1,19 @@
 import { apiRequest } from './client'
 
+export function fetchStatus() {
+  return apiRequest('/api/status')
+}
+
 export function diagnoseSentence(payload) {
   return apiRequest('/api/diagnose', { method: 'POST', body: payload })
 }
 
 export function fetchQuestions(params = {}) {
   return apiRequest('/api/questions', { query: params })
+}
+
+export function fetchQuestion(questionId) {
+  return apiRequest(`/api/questions/${encodeURIComponent(questionId)}`)
 }
 
 export function submitAnswer(payload) {

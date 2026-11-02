@@ -483,3 +483,8 @@ p {
     transition: none !important;
   }
 }
+
+.neu-table { width: 100%; border-collapse: collapse; text-align: left; }
+.neu-table th, .neu-table td { padding: 12px 8px; border-bottom: 1px solid #bbc4d1; }
+details > summary { cursor: pointer; padding: 12px 0; }
+details ol { padding-left: 24px; overflow-wrap: anywhere; }

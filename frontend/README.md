@@ -2,6 +2,12 @@
 
 Vue 3 + Vite 训练端。视觉为 Neumorphism（`neu-*` / `#e0e5ec`）。接口字段以仓库根目录 `TEAM_ASSIGNMENT_AND_API_SPEC.md` 为准。
 
+## v1.2 集成更新
+
+推荐按钮精确获取推荐题；提交后直接展示本次保存的关联解析；分类题面不显示 category；历史页支持只看错题、展开解析、再练此题；画像展示样本不足提示和平滑表现及每日趋势。诊断待复核时明确显示“暂无法确认”。顶部说明当前运行模式和演示题库状态。
+
+在项目根目录执行 `./start.ps1 -Demo` 可通过同一个地址访问完整应用。开发仍可使用下方 Vite 双进程方式。前端构建使用已提交的 package-lock.json 和 `npm ci`。
+
 ## 启动
 
 ```powershell
@@ -61,8 +67,8 @@ npm run dev
 - [x] API Mock 数据（`mock/`）
 - [x] 前端联调记录（`API_DEBUG.md`）
 - [x] ≥5 条交互测试用例（见上表）
-- [ ] 页面截图或录屏（需本机跑通后自行补充）
-- [ ] 课堂 60—90 秒演示讲解
+- [x] 页面截图与浏览器验收记录（见 ../docs/BROWSER_VERIFICATION.md）
+- [x] 课堂演示讲解稿（见 ../deliverables/课堂演示脚本.md，仍需成员彩排）
 - [ ] 在 `feature/frontend` 分支开 PR（含改动说明与是否需他人同步）
 
 ## 禁止事项

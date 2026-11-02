@@ -1,13 +1,14 @@
 <script setup>
 import { computed, ref, watch } from 'vue'
-import { useRoute } from 'vue-router'
-import { diagnoseSentence, fetchQuestions, submitAnswer } from '../api'
+import { useRoute, useRouter } from 'vue-router'
+import { diagnoseSentence, fetchQuestion, fetchQuestions, submitAnswer } from '../api'
 import { PRACTICE_MODES, USER_ID, messageForError } from '../constants'
 import ErrorAlert from '../components/ErrorAlert.vue'
 import HintPanel from '../components/HintPanel.vue'
 import DiagnosisCard from '../components/DiagnosisCard.vue'
 
 const route = useRoute()
+const router = useRouter()
 const mode = ref('判断题')
 const difficulty = ref('')
 const category = ref('')
@@ -24,6 +25,7 @@ const submitting = ref(false)
 const result = ref(null)
 const errorCode = ref('')
 const errorMessage = ref('')
+let loadVersion = 0
 
 const options = computed(() => {
   if (!question.value) return []
@@ -32,7 +34,7 @@ const options = computed(() => {
   return []
 })
 
-const canSubmit = computed(() => answer.value.trim().length > 0 && !submitting.value)
+const canSubmit = computed(() => answer.value.trim().length > 0 && !submitting.value && !loading.value && !result.value)
 
 const answerType = computed(() => {
   if (mode.value === '修改题') return 'text'
@@ -48,7 +50,8 @@ function applyRouteQuery() {
   category.value = typeof q.category === 'string' ? q.category : ''
 }
 
-async function loadQuestion() {
+async function loadQuestion(questionId = null) {
+  const version = ++loadVersion
   errorCode.value = ''
   errorMessage.value = ''
   result.value = null
@@ -61,14 +64,15 @@ async function loadQuestion() {
   loading.value = true
 
   try {
-    const data = await fetchQuestions({
+    const data = questionId ? await fetchQuestion(questionId) : await fetchQuestions({
       mode: mode.value,
       difficulty: difficulty.value || undefined,
       category: category.value || undefined,
       count: 1,
       user_id: USER_ID,
     })
-    question.value = data.questions?.[0] || null
+    if (version !== loadVersion) return
+    question.value = data.question || data.questions?.[0] || null
     if (!question.value) {
       errorCode.value = 'QUESTION_NOT_FOUND'
       errorMessage.value = '暂无符合条件的题目'
@@ -76,15 +80,30 @@ async function loadQuestion() {
       mode.value = question.value.mode
     }
   } catch (err) {
+    if (version !== loadVersion) return
     errorCode.value = err.code || 'INTERNAL_ERROR'
     errorMessage.value = messageForError(err)
   } finally {
-    loading.value = false
+    if (version === loadVersion) loading.value = false
+  }
+}
+
+function loadNextQuestion() {
+  const id = result.value?.recommended_question_id
+  if (id) {
+    if (route.query.question_id === id) loadQuestion(id)
+    else router.replace({ path: '/practice', query: { mode: mode.value, question_id: id } })
+  } else if (route.query.question_id) {
+    router.replace({ path: '/practice', query: { mode: mode.value,
+      difficulty: difficulty.value || undefined, category: category.value || undefined } })
+  } else {
+    loadQuestion()
   }
 }
 
 async function ensureHints() {
   if (!question.value || hints.value.length || hintsLoading.value) return
+  const id = question.value.question_id
   hintsLoading.value = true
   errorCode.value = ''
   errorMessage.value = ''
@@ -94,7 +113,8 @@ async function ensureHints() {
       user_id: USER_ID,
       need_hints: true,
     })
-    hints.value = data.hints || []
+    if (question.value?.question_id !== id) return
+    hints.value = data.review_status === 'passed' && !data.needs_context ? data.hints || [] : []
     if (!hints.value.length) {
       errorCode.value = 'MODEL_LOW_CONFIDENCE'
       errorMessage.value = '暂无分层提示，可直接作答或换一题。'
@@ -104,22 +124,6 @@ async function ensureHints() {
     errorMessage.value = messageForError(err)
   } finally {
     hintsLoading.value = false
-  }
-}
-
-async function revealExplanation() {
-  if (!question.value || diagnosis.value) return
-  errorCode.value = ''
-  errorMessage.value = ''
-  try {
-    diagnosis.value = await diagnoseSentence({
-      sentence: question.value.sentence,
-      user_id: USER_ID,
-      need_hints: false,
-    })
-  } catch (err) {
-    errorCode.value = err.code || 'INTERNAL_ERROR'
-    errorMessage.value = messageForError(err)
   }
 }
 
@@ -137,12 +141,7 @@ async function submit() {
       hint_level_used: hintLevel.value,
       attempt_number: attemptNumber.value,
     })
-    if (result.value?.next_action === 'show_explanation') {
-      await revealExplanation()
-    }
-    if (!result.value?.is_correct) {
-      attemptNumber.value += 1
-    }
+    diagnosis.value = result.value.diagnosis || null
   } catch (err) {
     errorCode.value = err.code || 'INTERNAL_ERROR'
     errorMessage.value = messageForError(err)
@@ -152,15 +151,22 @@ async function submit() {
 }
 
 function selectMode(next) {
-  mode.value = next
-  loadQuestion()
+  if (next === mode.value && !route.query.question_id) return
+  router.replace({ path: '/practice', query: { ...route.query, mode: next, question_id: undefined } })
+}
+
+function retryAnswer() {
+  attemptNumber.value += 1
+  result.value = null
+  diagnosis.value = null
+  answer.value = ''
 }
 
 watch(
-  () => [route.query.mode, route.query.difficulty, route.query.category],
+  () => [route.query.mode, route.query.difficulty, route.query.category, route.query.question_id],
   () => {
     applyRouteQuery()
-    loadQuestion()
+    loadQuestion(typeof route.query.question_id === 'string' ? route.query.question_id : null)
   },
   { immediate: true },
 )
@@ -179,6 +185,7 @@ watch(
         :key="item"
         type="button"
         class="neu-chip"
+        :disabled="submitting || hintsLoading"
         :class="{ 'is-active': mode === item }"
         @click="selectMode(item)"
       >
@@ -193,7 +200,7 @@ watch(
     <template v-else-if="question">
       <p class="neu-well neu-copy">{{ question.sentence }}</p>
       <p class="neu-kicker">
-        {{ question.difficulty }} · {{ question.category }} · {{ question.mode }}
+        {{ question.difficulty }} · {{ question.mode }}
         · 第 {{ attemptNumber }} 次作答
       </p>
 
@@ -236,7 +243,7 @@ watch(
         <button class="neu-btn neu-btn-primary" type="button" :disabled="!canSubmit" @click="submit">
           {{ submitting ? '提交中…' : '提交答案' }}
         </button>
-        <button class="neu-btn" type="button" :disabled="loading" @click="loadQuestion">下一题</button>
+        <button class="neu-btn" type="button" :disabled="loading || submitting || hintsLoading" @click="loadNextQuestion">{{ result?.recommended_question_id ? '练习推荐题' : '下一题' }}</button>
       </div>
 
       <section v-if="result" class="neu-card">
@@ -246,19 +253,21 @@ watch(
         <p class="neu-result-block">{{ result.feedback }}</p>
         <p v-if="result.feedback_level" class="neu-kicker">反馈级别：{{ result.feedback_level }}</p>
         <p v-if="result.mastery_update" class="neu-result-block">
-          掌握度：{{ result.mastery_update.category }}
+          分类正确率：{{ result.mastery_update.category }}
           {{ Number(result.mastery_update.before).toFixed(2) }}
           → {{ Number(result.mastery_update.after).toFixed(2) }}
         </p>
         <p v-if="result.recommended_question_id" class="neu-kicker">
-          后端推荐下一题 ID：{{ result.recommended_question_id }}（点击「下一题」由后端按画像出题）
+          已为你选择一道针对性练习，点击「练习推荐题」继续。
         </p>
-        <div v-if="!result.is_correct" class="neu-actions">
-          <button class="neu-btn" type="button" @click="revealExplanation">查看讲解</button>
-        </div>
+        <button v-if="!result.is_correct" class="neu-btn" type="button" @click="retryAnswer">再答一次</button>
       </section>
 
-      <DiagnosisCard v-if="diagnosis" :diagnosis="diagnosis" />
+    <DiagnosisCard v-if="diagnosis" :diagnosis="diagnosis" />
+    <details v-if="result?.trace?.length" class="neu-card">
+      <summary>查看本次执行过程</summary>
+      <ol><li v-for="(step, index) in result.trace" :key="index">{{ step.agent }} · {{ step.action }} · {{ step.status }} · {{ step.duration_ms }} ms</li></ol>
+    </details>
     </template>
   </div>
 </template>

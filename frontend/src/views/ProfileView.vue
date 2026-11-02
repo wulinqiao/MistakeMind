@@ -12,6 +12,7 @@ const errorCode = ref('')
 const errorMessage = ref('')
 
 const priorityLabel = {
+  insufficient: '样本较少，继续积累',
   high: '优先复习',
   medium: '保持练习',
   low: '巩固',
@@ -52,7 +53,7 @@ onMounted(load)
   <div class="neu-stack">
     <header class="neu-stack">
       <h1 class="neu-section-title">学习画像</h1>
-      <p class="neu-copy">正确率和掌握度来自后端画像接口。推荐类型只展示，不在前端计算。</p>
+      <p class="neu-copy">{{ profile?.description || '根据近期练习记录推荐复习方向。' }}</p>
     </header>
 
     <div class="neu-actions">
@@ -74,12 +75,13 @@ onMounted(load)
         </div>
         <div class="neu-stat">
           <strong>{{ profile.recommended_categories?.[0] || '暂无' }}</strong>
-          <span>建议加强的类型</span>
+          <span>推荐练习类型</span>
         </div>
       </div>
 
       <section v-if="profile.recommended_categories?.length" class="neu-stack" style="gap: 12px">
         <h2 class="neu-section-title">推荐知识点</h2>
+        <p class="neu-copy">推荐同时考虑近期错题与新类型探索，未练过的类型不表示已经判断为薄弱项。</p>
         <div class="neu-chip-row">
           <button
             v-for="item in profile.recommended_categories"
@@ -94,7 +96,8 @@ onMounted(load)
       </section>
 
       <section class="neu-stack" style="gap: 12px">
-        <h2 class="neu-section-title">掌握度分布</h2>
+        <h2 class="neu-section-title">近期练习表现</h2>
+        <p class="neu-copy">基于最近 {{ profile.recent_window }} 次作答进行平滑估计；每类至少 {{ profile.minimum_samples }} 次后再判断复习优先级。</p>
         <div class="neu-list">
           <article
             v-for="item in profile.category_stats || []"
@@ -108,7 +111,8 @@ onMounted(load)
             <p>
               正确率 {{ Math.round((item.accuracy || 0) * 100) }}%
               （{{ item.correct }}/{{ item.attempts }}）
-              · 掌握度 {{ Number(item.mastery || 0).toFixed(2) }}
+              · 近期平滑正确率 {{ Math.round((item.mastery || 0) * 100) }}%
+              · 错误 {{ item.errors }} 次
             </p>
             <div class="neu-bar-track" :aria-label="`${item.category} 掌握度`">
               <div
@@ -126,6 +130,14 @@ onMounted(load)
             暂无分类统计，完成几道练习后再来查看。
           </p>
         </div>
+      </section>
+
+      <section v-if="profile.trend?.length" class="neu-stack">
+        <h2 class="neu-section-title">每日练习趋势</h2>
+        <table class="neu-table">
+          <thead><tr><th>日期</th><th>题数</th><th>正确率</th></tr></thead>
+          <tbody><tr v-for="day in profile.trend" :key="day.date"><td>{{ day.date }}</td><td>{{ day.attempts }}</td><td><meter min="0" max="1" :value="day.accuracy" :aria-label="`${day.date} 正确率`" /> {{ Math.round(day.accuracy * 100) }}%</td></tr></tbody>
+        </table>
       </section>
 
       <p v-if="profile.next_review_at" class="neu-kicker">

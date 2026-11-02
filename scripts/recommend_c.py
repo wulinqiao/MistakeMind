@@ -1,4 +1,4 @@
-"""独立、可测试的 C 模块推荐规则；尚未接入 D 的线上接口。"""
+"""可测试的 C 推荐规则；同时用于线上练习推荐与离线评测。"""
 from __future__ import annotations
 
 from collections import defaultdict

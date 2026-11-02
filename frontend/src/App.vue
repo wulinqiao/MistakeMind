@@ -1,4 +1,10 @@
 <script setup>
+import { onMounted, ref } from 'vue'
+import { fetchStatus } from './api'
+const status = ref(null)
+onMounted(async () => {
+  try { status.value = await fetchStatus() } catch { /* Each page handles request errors. */ }
+})
 </script>
 
 <template>
@@ -17,6 +23,11 @@
     </nav>
 
     <main class="neu-main">
+      <p v-if="status?.agent_mode === 'mock' || status?.demo_dataset" class="neu-well neu-copy" role="status">
+        {{ status.agent_mode === 'mock' ? '离线演示：诊断只支持固定样例，其他句子需复核。' : '真实模型已连接。' }}
+        {{ status.demo_dataset ? '当前题库为开发演示样例，不作为正式教学质量依据。' : '' }}
+      </p>
+      <p v-if="status && !status.active_questions" class="neu-copy" role="status">暂无已启用练习题。可先使用句子诊断；练习题需审核并导入后开放。</p>
       <RouterView />
     </main>
 

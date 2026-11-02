@@ -140,11 +140,12 @@ class AgentService:
     def _graded(self, ctx, q, types, refs, correct, feedback, started, action):
         self._event(ctx, "answer_agent", action, started, output_schema="AnswerAnalysisV1")
         self._event(ctx, "review_agent", "grading_gate", started, "passed", output_schema="AnswerReviewV1")
-        corrections = [Correction(text=t, kind="参考修改", reason="来自已审核启用题目的参考修改。")
+        reference_reason = "来自开发演示固定样例，不是人工审核题库。" if q.get("source", "").startswith("开发演示") else "来自已审核启用题目的参考修改。"
+        corrections = [Correction(text=t, kind="参考修改", reason=reference_reason)
                        for t in refs if t not in {"是病句", "不是病句", *[c.value for c in Category]}] if types else []
         diagnosis = DiagnosisResult(diagnosis_id="diag_" + uuid.uuid4().hex[:12], original_sentence=q["sentence"],
-            has_error=bool(types), error_types=types, error_span=None,
-            explanation=feedback + " 关联诊断依据题库标准标签；本字段不代表重新检测原句。",
+            has_error=bool(types), error_types=types, error_span=q.get("error_span"),
+            explanation=feedback + " " + (q.get("explanation") or "关联诊断依据题库标准标签；本字段不代表重新检测原句。"),
             corrections=corrections, hints=[], confidence=1.0, review_status=ReviewStatus.passed,
             trace=ctx.trace.copy())
         ctx.current_result = diagnosis

@@ -7,6 +7,8 @@ from contextlib import closing
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
+from scripts.recommend_c import category_profile, recommend_next
+from dotenv import load_dotenv
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -58,6 +60,10 @@ class Database:
             );
             CREATE INDEX IF NOT EXISTS idx_attempts_user ON attempts(user_id, created_at);
             CREATE INDEX IF NOT EXISTS idx_questions_category ON questions(category, is_active);
+            CREATE TABLE IF NOT EXISTS question_details (
+              question_id TEXT PRIMARY KEY, explanation TEXT NOT NULL DEFAULT '',
+              error_span TEXT, FOREIGN KEY(question_id) REFERENCES questions(id)
+            );
             """)
 
     def ensure_user(self, user_id: str, grade: str | None = None) -> None:
@@ -97,8 +103,36 @@ class Database:
 
     def get_question(self, question_id):
         with closing(self.connect()) as c, c:
-            row = c.execute("SELECT * FROM questions WHERE id = ? AND is_active = 1", (question_id,)).fetchone()
+            row = c.execute("SELECT q.*, d.explanation, d.error_span FROM questions q LEFT JOIN question_details d ON d.question_id=q.id WHERE q.id = ? AND q.is_active = 1", (question_id,)).fetchone()
         return dict(row) if row else None
+
+    def recommend(self, user_id, mode=None, difficulty=None, exclude_id=None):
+        clauses, args = ["is_active=1"], []
+        for name, value in (("mode", mode), ("difficulty", difficulty)):
+            if value:
+                clauses.append(f"{name}=?")
+                args.append(value)
+        with closing(self.connect()) as con:
+            rows = [dict(r) for r in con.execute(
+                f"SELECT * FROM questions WHERE {' AND '.join(clauses)} ORDER BY id", args)]
+        if not rows:
+            return None
+        history = self.recent_summary(user_id, 50)
+        scores = {r["category"]: r["priority_score"] for r in category_profile(history)}
+        # Choose the target knowledge category before avoiding recent questions.
+        # Otherwise a small bank silently loses the weakest category altogether.
+        best = max(scores.get(r["category"], 0.0) for r in rows)
+        pool = [r for r in rows if scores.get(r["category"], 0.0) == best]
+        fresh = [r for r in pool if r["id"] != exclude_id]
+        pool = fresh or pool
+        # Only enabled database rows enter this pool. Formal imports enforce review.
+        candidates = [dict(r, review_status="approved", is_active=True) for r in pool]
+        selected = recommend_next(candidates, history, recent_limit=10)
+        if selected:
+            return selected
+        # A pool of normal sentences (category 其他) remains usable for practice.
+        return {"question_id": pool[0]["id"], "category": pool[0]["category"],
+                "reason": "当前条件下的正常句练习。", "priority_score": 0.0}
 
     def insert_attempt(self, attempt_id, user_id, question_id, answer, is_correct, hint_level, attempt_number):
         self.ensure_user(user_id)
@@ -133,14 +167,18 @@ class Database:
               (user_id, limit)).fetchall()
         return [dict(r) for r in reversed(rows)]
 
-    def history(self, user_id, page, page_size, category=None):
+    def history(self, user_id, page, page_size, category=None, wrong_only=False):
         clauses, args = ["a.user_id = ?"], [user_id]
         if category:
             clauses.append("q.category = ?"); args.append(category)
+        if wrong_only:
+            clauses.append("a.is_correct = 0")
         where = " AND ".join(clauses)
         with closing(self.connect()) as c, c:
             total = c.execute(f"SELECT COUNT(*) FROM attempts a JOIN questions q ON q.id=a.question_id WHERE {where}", args).fetchone()[0]
-            rows = c.execute(f"""SELECT a.*, q.category, d.error_types_json FROM attempts a JOIN questions q ON q.id=a.question_id
+            rows = c.execute(f"""SELECT a.*, q.category, q.sentence AS original_sentence,
+              d.id AS diagnosis_id, d.error_types_json, d.explanation, d.error_span,
+              d.corrections_json, d.review_status FROM attempts a JOIN questions q ON q.id=a.question_id
               LEFT JOIN diagnoses d ON d.attempt_id=a.id WHERE {where} ORDER BY a.created_at DESC LIMIT ? OFFSET ?""", (*args, page_size, (page-1)*page_size)).fetchall()
         return total, [dict(r) for r in rows]
 
@@ -150,20 +188,41 @@ class Database:
         stats = {}
         for row in rows:
             s = stats.setdefault(row[0], {"attempts": 0, "correct": 0}); s["attempts"] += 1; s["correct"] += int(row[1])
+        recent = self.recent_summary(user_id, 50)
+        priorities = {x["category"]: x for x in category_profile(recent)}
         result = []
         for category, s in stats.items():
             accuracy = s["correct"] / s["attempts"]
-            result.append({"category": category, **s, "accuracy": accuracy, "mastery": accuracy, "priority": "high" if accuracy < .6 else "medium" if accuracy < .8 else "low"})
-        result.sort(key=lambda x: (x["accuracy"], -x["attempts"]))
+            subset = [r for r in recent if r["category"] == category]
+            n, correct = len(subset), sum(r["is_correct"] for r in subset)
+            mastery = (correct + 1) / (n + 2)
+            sufficient = n >= 3
+            score = priorities.get(category, {}).get("priority_score", 0.0)
+            result.append({"category": category, **s, "errors": s["attempts"] - s["correct"],
+                           "accuracy": accuracy, "mastery": mastery,
+                           "recent_attempts": n, "recent_accuracy": correct/n if n else None,
+                           "sample_sufficient": sufficient, "priority_score": score,
+                           "priority": "insufficient" if not sufficient else "high" if mastery < .6 else "medium" if mastery < .8 else "low"})
+        result.sort(key=lambda x: (-x["priority_score"], x["category"]))
+        with closing(self.connect()) as con:
+            trend = [dict(r) for r in con.execute("""SELECT substr(created_at,1,10) AS date,
+                count(*) AS attempts, sum(is_correct) AS correct,
+                1.0*sum(is_correct)/count(*) AS accuracy FROM attempts WHERE user_id=?
+                GROUP BY substr(created_at,1,10) ORDER BY date DESC LIMIT 14""", (user_id,))]
+        recommended = [x["category"] for x in category_profile(recent)[:2]] if recent else []
         total = len(rows)
         return {"user_id": user_id, "total_attempts": total, "overall_accuracy": sum(int(r[1]) for r in rows)/total if total else 0.0,
-                "category_stats": result, "recommended_categories": [x["category"] for x in result[:2]],
+                "category_stats": result, "recommended_categories": recommended,
+                "recent_window": 50, "minimum_samples": 3, "trend": list(reversed(trend)),
+                "description": "基于最近练习记录的表现估计；样本较少时先积累记录，不据单次作答推断长期能力。",
                 "next_review_at": (datetime.now(timezone.utc).astimezone() + timedelta(days=2)).isoformat()}
 
 
 _db: Database | None = None
 def get_database() -> Database:
     global _db
-    if _db is None: _db = Database()
+    if _db is None:
+        load_dotenv(ROOT / ".env", override=False)
+        _db = Database()
     return _db
 

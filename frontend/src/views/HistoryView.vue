@@ -3,9 +3,11 @@ import { computed, ref, watch } from 'vue'
 import { fetchHistory } from '../api'
 import { CATEGORIES, USER_ID, messageForError } from '../constants'
 import ErrorAlert from '../components/ErrorAlert.vue'
+import DiagnosisCard from '../components/DiagnosisCard.vue'
 
 const filters = ['全部', ...CATEGORIES]
 const current = ref('全部')
+const wrongOnly = ref(false)
 const page = ref(1)
 const pageSize = 20
 const total = ref(0)
@@ -25,6 +27,7 @@ async function load() {
       page: page.value,
       page_size: pageSize,
       category: current.value === '全部' ? undefined : current.value,
+      wrong_only: wrongOnly.value,
     })
     items.value = data.items || []
     total.value = data.total || 0
@@ -45,6 +48,7 @@ function selectCategory(category) {
 }
 
 watch([current, page], load, { immediate: true })
+watch(wrongOnly, () => { if (page.value !== 1) page.value = 1; else load() })
 </script>
 
 <template>
@@ -53,6 +57,7 @@ watch([current, page], load, { immediate: true })
       <h1 class="neu-section-title">历史记录</h1>
       <p class="neu-copy">按病句类型筛选作答记录，数据来自后端历史接口。</p>
     </header>
+    <label class="neu-copy"><input v-model="wrongOnly" type="checkbox" /> 只看错题</label>
 
     <div class="neu-chip-row">
       <button
@@ -76,10 +81,18 @@ watch([current, page], load, { immediate: true })
           {{ item.is_correct ? '正确' : '错误' }}
         </strong>
         <p>
+          原题：{{ item.original_sentence }}
+        </p>
+        <p>
           题目 {{ item.question_id }} · 作答：{{ item.answer }}
           <template v-if="item.error_types?.length"> · {{ item.error_types.join('、') }}</template>
         </p>
         <small>{{ item.created_at }} · {{ item.attempt_id }}</small>
+        <details v-if="item.diagnosis">
+          <summary>查看本次解析</summary>
+          <DiagnosisCard :diagnosis="item.diagnosis" />
+        </details>
+        <RouterLink class="neu-btn" :to="{ path: '/practice', query: { question_id: item.question_id } }">再练此题</RouterLink>
       </article>
       <p v-if="!items.length" class="neu-copy">暂无记录。可先去答题或诊断创建用户。</p>
     </div>

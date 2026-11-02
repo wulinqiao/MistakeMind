@@ -49,7 +49,7 @@ T = TypeVar("T")
 
 class Meta(BaseModel):
     timestamp: datetime
-    version: str = "v1.1"
+    version: str = "v1.2"
 
 
 class ApiResponse(BaseModel, Generic[T]):
@@ -107,7 +107,7 @@ class QuestionOut(BaseModel):
     sentence: str
     mode: PracticeMode
     difficulty: Difficulty
-    category: Category
+    category: Category | None = Field(default=None, deprecated=True)
     options: list[str] = Field(default_factory=list)
 
 

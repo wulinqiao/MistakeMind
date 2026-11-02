@@ -1,5 +1,24 @@
 # MistakeMind API
 
+## v1.2 学习闭环
+
+当前版本为 v1.2；下方 v1.1 节保留为历史兼容说明。
+
+| 接口 | 新增行为 |
+| --- | --- |
+| GET /api/status | 返回 agent_mode、active_questions、demo_dataset、api_version，不包含凭据 |
+| GET /api/questions/{question_id} | 返回 data.question，精确获取已启用的推荐题，未启用返回 404 |
+| GET /api/questions | 未指定 category 且提供 user_id 时按画像推荐；mode、difficulty 条件继续生效 |
+| POST /api/submit-answer | 增加 diagnosis、trace；返回保存的同一诊断及持久化、推荐过程 |
+| GET /api/history/{user_id} | 新增 wrong_only 布尔筛选，items 新增 original_sentence、diagnosis |
+| GET /api/profile/{user_id} | 增加近期平滑表现、样本数保护、错误次数及每日趋势 |
+
+题面中的 category 字段保留为 null，不再提前泄露分类答案；参考修改和解析仅在作答后返回。推荐优先选择薄弱类别，再避开该类别近期题；同类题量不足时允许复练。推荐保持本次题型和难度，前端用精确取题接口打开推荐 ID。
+
+profile.category_stats 保留累计 accuracy。mastery 使用最近 50 次作答中的分类正确次数 c 和题数 n 计算 (c+1)/(n+2)，sample_sufficient 表示 n>=3；不足时 priority=insufficient。priority_score 沿用 C 的平滑错误率与探索奖励。trend 为最近 14 个有作答日期的题数和正确率。mastery_update.before/after 为兼容旧客户端，仍表示累计分类正确率。
+
+生产构建后可直接通过 FastAPI 同源访问首页及 /practice、/diagnose、/history、/profile；刷新这些页面可返回前端入口。Vite 代理仅用于开发。
+
 ## v1.1 B 模块
 
 所有旧路径和旧请求兼容，meta.version 为 v1.1；诊断增加 needs_context=false。配置与运行参见 ../agents/README.md。

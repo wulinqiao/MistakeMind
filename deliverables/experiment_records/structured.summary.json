@@ -1,0 +1,151 @@
+{
+  "samples": 79,
+  "statuses": {
+    "success": 61,
+    "needs_review": 10,
+    "failed": 8
+  },
+  "missing": 0,
+  "attempts_including_retries": 79,
+  "success_rate_all_requests": 0.7722,
+  "review_rate_all_requests": 0.1266,
+  "failure_rate_all_requests": 0.1013,
+  "primary_accuracy_all_requests": 0.7215,
+  "conservative_detection_all_requests": {
+    "precision": 0.9574,
+    "recall": 0.7377,
+    "f1": 0.8333,
+    "tp": 45,
+    "fp": 2,
+    "fn": 16,
+    "note": "拒判/失败的病句计 FN，正常句计 FP；这是端到端保守分数，不是标准混淆矩阵。"
+  },
+  "classification_all_requests": {
+    "macro_f1_eight_classes": 0.7333,
+    "per_class": {
+      "成分残缺": {
+        "precision": 1.0,
+        "recall": 0.875,
+        "f1": 0.9333
+      },
+      "成分赘余": {
+        "precision": 0.8333,
+        "recall": 0.625,
+        "f1": 0.7143
+      },
+      "搭配不当": {
+        "precision": 0.7143,
+        "recall": 0.625,
+        "f1": 0.6667
+      },
+      "语序不当": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667
+      },
+      "结构混乱": {
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333
+      },
+      "表意不明": {
+        "precision": 1.0,
+        "recall": 0.1667,
+        "f1": 0.2857
+      },
+      "不合逻辑": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667
+      },
+      "关联词使用不当": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    }
+  },
+  "multilabel_micro_all_requests": {
+    "precision": 0.9388,
+    "recall": 0.6667,
+    "f1": 0.7797
+  },
+  "accepted_only_diagnostic_metrics": {
+    "samples": 61,
+    "detection": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "tp": 45,
+      "fp": 0,
+      "fn": 0
+    },
+    "classification": {
+      "macro_f1_eight_classes": 0.9095,
+      "per_class": {
+        "成分残缺": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "成分赘余": {
+          "precision": 0.8333,
+          "recall": 1.0,
+          "f1": 0.9091
+        },
+        "搭配不当": {
+          "precision": 0.7143,
+          "recall": 1.0,
+          "f1": 0.8333
+        },
+        "语序不当": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8
+        },
+        "结构混乱": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1": 0.9333
+        },
+        "表意不明": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "不合逻辑": {
+          "precision": 1.0,
+          "recall": 0.6667,
+          "f1": 0.8
+        },
+        "关联词使用不当": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      }
+    },
+    "note": "单标签主类别演示；完整数据集的多标签分类应另行设计评测。"
+  },
+  "mean_latency_ms_all_requests": 18929.18,
+  "external_calls": 173,
+  "reported_usage": {
+    "prompt_tokens": 124922,
+    "completion_tokens": 94886,
+    "total_tokens": 219808
+  },
+  "elapsed_ms_including_retries": 1495405,
+  "usage_note": "缺失用量按未报告处理；仅累计上游成功解析响应的用量，不代表完整账单。费用需按实际服务价格人工核算。",
+  "recommendation_hit_rate": null,
+  "recommendation_samples": 0,
+  "manual_modification_quality": null,
+  "note": "人工修改质量另填 ratings.json；拒判和失败均保留。仅接受结果的指标不可作为整体能力。",
+  "group": "structured",
+  "formal": true,
+  "mode": "live",
+  "real_diagnostic_experiment": true,
+  "data_hash": "c04bbf03d45d9ba479858b97c504f968764132daac1c0a49d39e177bdccbb383",
+  "code_hash": "014e44fd39a3cd5a739dc4ef4dccb5fb04ac306cc9ce78d1393d04fa92d943b7",
+  "prompt_version": "b-1.0.0",
+  "validation_scope": "真实服务、人工审核数据的诊断实验；修改质量仍需人工评分。"
+}

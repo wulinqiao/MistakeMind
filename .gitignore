@@ -20,4 +20,7 @@ evaluation/runs/
 htmlcov/
 .idea/
 .vscode/
+.audit_tmp/
+output/
+.playwright-cli/
 Thumbs.db

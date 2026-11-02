@@ -2,6 +2,19 @@
 
 本文档是 MistakeMind 的开发协作基线。所有成员在编写前端、后端、Agent、题库和评测代码时，必须以本文档中的接口、字段和状态定义为准。
 
+## v1.2 完整学习闭环增补（2026-11-01）
+
+- 保留五个旧路径和请求字段，meta.version 更新为 v1.2。新增 GET /api/questions/{question_id}，返回 data.question；仅返回启用题，答案字段不公开。
+- QuestionOut.category 保留为 deprecated 空值，避免分类选择题提前泄露答案。按类型筛选仍可用。
+- GET /api/questions 提供 user_id 且未指定 category 时按近期画像推荐，保留 mode/difficulty 条件；提交结果中的 recommended_question_id 可用新增接口精确获取。
+- 提交结果增加 diagnosis（本次保存的关联诊断）和 trace（含判分、持久化、推荐）。前端不再额外调用自由诊断来替代本次反馈。
+- 历史查询新增 wrong_only=false。items 增加 original_sentence、diagnosis；历史诊断包含 explanation、corrections、review_status。无旧诊断记录时 diagnosis=null。
+- profile 保留旧字段，category_stats 增加 errors、sample_sufficient、recent_attempts、recent_accuracy、priority_score；mastery 改为近期作答的 Laplace 平滑正确率，最小样本数为 3。推荐使用最近 50 次作答与 C 的平滑错误率及探索规则。
+- profile 增加 recent_window=50、minimum_samples=3、trend（最近 14 个有作答日期的每日正确率与题数）、description。所有统计表示练习表现估计，不推断长期认知能力。
+- 兼容字段 mastery_update.before/after 继续表示该类别累计正确率，前端文案相应改为“分类正确率”。
+- 标准练习题仍须真实人工审核；单独的 demo 数据库仅装入明确标注的开发固定样例，不将候选题标为 approved，不导入正式评测集。
+- 新增 GET /api/status，返回 agent_mode、active_questions、demo_dataset、api_version，用于页面说明当前是离线演示还是真实模型、是否存在可用题目。不返回模型地址或凭据。
+
 ## v1.1 B 模块兼容增补（2026-10-30）
 
 - 路径和旧字段不变；meta.version=v1.1。DiagnosisResult 增加 needs_context（默认 false），grade、optional_context、need_hints 传入 Agent。

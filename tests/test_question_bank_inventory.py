@@ -12,8 +12,9 @@ def test_catalog_includes_both_practice_banks_outside_cwd(tmp_path, monkeypatch)
     monkeypatch.chdir(tmp_path)
     entries = bank_module.inventory()
     assert [e["count"] for e in entries] == [20, 44]
-    assert sum(e["pending"] for e in entries) == 64
-    assert sum(e["approved_active"] for e in entries) == 0
+    assert sum(e["pending"] for e in entries) == 0
+    assert sum(e["approved_active"] for e in entries) == 64
+    assert all(e['active_path'].endswith('.reviewed.json') for e in entries)
 
 
 def test_inventory_rejects_cross_bank_duplicate_id(tmp_path, monkeypatch):

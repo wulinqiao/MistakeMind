@@ -22,6 +22,7 @@ export const ERROR_MESSAGES = {
   USER_NOT_FOUND: '用户不存在，请先完成一次诊断或答题。',
   MODEL_TIMEOUT: '模型请求超时，请稍后重试。',
   MODEL_INVALID_JSON: '模型返回异常，请稍后重试。',
+  MODEL_UNAVAILABLE: '模型服务暂不可用，请检查配置或稍后重试。',
   MODEL_LOW_CONFIDENCE: '模型置信度较低，结果仅供参考。',
   DATABASE_ERROR: '数据读写失败，请稍后重试。',
   INTERNAL_ERROR: '服务内部错误，请稍后重试。',

@@ -42,7 +42,7 @@ def counts(db):
 def test_exact_reference_history_and_previous_accuracy(setup):
     client, db = setup
     first = submit(client, "经过训练，他学会了游泳。").json()
-    assert first["data"]["is_correct"] and first["meta"]["version"] == "v1.1"
+    assert first["data"]["is_correct"] and first["meta"]["version"] == "v1.2"
     second = submit(client, "搭配不当", question_id="choice", answer_type="choice").json()
     assert not second["data"]["is_correct"]
     assert second["data"]["mastery_update"] == {"category": "成分残缺", "before": 1.0, "after": .5}
